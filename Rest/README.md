@@ -1,10 +1,10 @@
 : mkdir Rest
 
 * Check if following things are present and fine
-	**node -v**
-	**npm -v**
-	**mongo**
-
+<br>*node -v*</br>
+<br>*npm -v*</br>
+<br>*mongo*</br>
+```
 /Rest: npm init
 /Rest: npm install express --save
 
@@ -38,3 +38,4 @@ This will keep always running the app in case we change in app server will resta
 	chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm/index.html
 	URL : http://localhost:3000/api/users/
 	In Headers: set Header = Content-Type Value = application/json	
+```
