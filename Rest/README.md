@@ -1,9 +1,9 @@
 : mkdir Rest
 
 * Check if following things are present and fine
-node -v
-npm -v
-mongo
+	**node -v**
+	**npm -v**
+	**mongo**
 
 /Rest: npm init
 /Rest: npm install express --save
