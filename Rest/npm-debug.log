@@ -1,0 +1,2472 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'body-parser' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json Rest@1.0.0 No description
+6 warn package.json Rest@1.0.0 No repository field.
+7 warn package.json Rest@1.0.0 No README data
+8 silly cache add args [ 'body-parser', null ]
+9 verbose cache add spec body-parser
+10 silly cache add parsed spec { raw: 'body-parser',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'body-parser',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 verbose addNamed body-parser@*
+12 silly addNamed semver.valid null
+13 silly addNamed semver.validRange *
+14 silly addNameRange { name: 'body-parser', range: '*', hasData: false }
+15 silly mapToRegistry name body-parser
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+19 verbose addNameRange registry:https://registry.npmjs.org/body-parser not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/body-parser
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 09:45:58
+23 verbose request id 67501cd4dddb9839
+24 verbose etag "DQHPHO6Q3JLQW3ZITVRBGYPE8"
+25 http request GET https://registry.npmjs.org/body-parser
+26 http 304 https://registry.npmjs.org/body-parser
+27 silly get cb [ 304,
+27 silly get   { date: 'Thu, 09 Jul 2015 03:46:00 GMT',
+27 silly get     via: '1.1 varnish',
+27 silly get     'cache-control': 'max-age=60',
+27 silly get     etag: '"DQHPHO6Q3JLQW3ZITVRBGYPE8"',
+27 silly get     age: '36',
+27 silly get     connection: 'keep-alive',
+27 silly get     'x-served-by': 'cache-ams4140-AMS',
+27 silly get     'x-cache': 'HIT',
+27 silly get     'x-cache-hits': '1',
+27 silly get     'x-timer': 'S1436413560.326784,VS0,VE0',
+27 silly get     vary: 'Accept' } ]
+28 verbose etag https://registry.npmjs.org/body-parser from cache
+29 verbose get saving body-parser to /Users/newscred/.npm/registry.npmjs.org/body-parser/.cache.json
+30 silly addNameRange number 2 { name: 'body-parser', range: '*', hasData: true }
+31 silly addNameRange versions [ 'body-parser',
+31 silly addNameRange   [ '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '1.1.0',
+31 silly addNameRange     '1.1.1',
+31 silly addNameRange     '1.1.2',
+31 silly addNameRange     '1.2.0',
+31 silly addNameRange     '1.2.1',
+31 silly addNameRange     '1.2.2',
+31 silly addNameRange     '1.3.0',
+31 silly addNameRange     '1.3.1',
+31 silly addNameRange     '1.4.0',
+31 silly addNameRange     '1.4.1',
+31 silly addNameRange     '1.4.2',
+31 silly addNameRange     '1.4.3',
+31 silly addNameRange     '1.5.0',
+31 silly addNameRange     '1.5.1',
+31 silly addNameRange     '1.5.2',
+31 silly addNameRange     '1.6.0',
+31 silly addNameRange     '1.6.1',
+31 silly addNameRange     '1.6.2',
+31 silly addNameRange     '1.6.3',
+31 silly addNameRange     '1.6.4',
+31 silly addNameRange     '1.6.5',
+31 silly addNameRange     '1.6.6',
+31 silly addNameRange     '1.6.7',
+31 silly addNameRange     '1.7.0',
+31 silly addNameRange     '1.8.0',
+31 silly addNameRange     '1.8.1',
+31 silly addNameRange     '1.8.2',
+31 silly addNameRange     '1.8.3',
+31 silly addNameRange     '1.8.4',
+31 silly addNameRange     '1.9.0',
+31 silly addNameRange     '1.9.1',
+31 silly addNameRange     '1.9.2',
+31 silly addNameRange     '1.9.3',
+31 silly addNameRange     '1.10.0',
+31 silly addNameRange     '1.10.1',
+31 silly addNameRange     '1.10.2',
+31 silly addNameRange     '1.11.0',
+31 silly addNameRange     '1.12.0',
+31 silly addNameRange     '1.12.1',
+31 silly addNameRange     '1.12.2',
+31 silly addNameRange     '1.12.3',
+31 silly addNameRange     '1.12.4',
+31 silly addNameRange     '1.13.0',
+31 silly addNameRange     '1.13.1',
+31 silly addNameRange     '1.13.2' ] ]
+32 verbose addNamed body-parser@1.13.2
+33 silly addNamed semver.valid 1.13.2
+34 silly addNamed semver.validRange 1.13.2
+35 silly cache afterAdd body-parser@1.13.2
+36 verbose afterAdd /Users/newscred/.npm/body-parser/1.13.2/package/package.json not in flight; writing
+37 verbose afterAdd /Users/newscred/.npm/body-parser/1.13.2/package/package.json written
+38 silly install resolved [ { name: 'body-parser',
+38 silly install resolved     description: 'Node.js body parsing middleware',
+38 silly install resolved     version: '1.13.2',
+38 silly install resolved     contributors: [ [Object], [Object] ],
+38 silly install resolved     license: 'MIT',
+38 silly install resolved     repository: { type: 'git', url: 'https://github.com/expressjs/body-parser' },
+38 silly install resolved     dependencies:
+38 silly install resolved      { bytes: '2.1.0',
+38 silly install resolved        'content-type': '~1.0.1',
+38 silly install resolved        debug: '~2.2.0',
+38 silly install resolved        depd: '~1.0.1',
+38 silly install resolved        'http-errors': '~1.3.1',
+38 silly install resolved        'iconv-lite': '0.4.11',
+38 silly install resolved        'on-finished': '~2.3.0',
+38 silly install resolved        qs: '4.0.0',
+38 silly install resolved        'raw-body': '~2.1.2',
+38 silly install resolved        'type-is': '~1.6.4' },
+38 silly install resolved     devDependencies:
+38 silly install resolved      { istanbul: '0.3.17',
+38 silly install resolved        methods: '~1.1.1',
+38 silly install resolved        mocha: '2.2.5',
+38 silly install resolved        supertest: '1.0.1' },
+38 silly install resolved     files: [ 'lib/', 'LICENSE', 'HISTORY.md', 'index.js' ],
+38 silly install resolved     engines: { node: '>= 0.8' },
+38 silly install resolved     scripts:
+38 silly install resolved      { test: 'mocha --require test/support/env --reporter spec --check-leaks --bail test/',
+38 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/',
+38 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/' },
+38 silly install resolved     gitHead: 'b31df3e7550c6fadef6823a020f527ab73bfec33',
+38 silly install resolved     bugs: { url: 'https://github.com/expressjs/body-parser/issues' },
+38 silly install resolved     homepage: 'https://github.com/expressjs/body-parser',
+38 silly install resolved     _id: 'body-parser@1.13.2',
+38 silly install resolved     _shasum: '229262a4fd2e402dfb88d99bc27d8be31307e7e9',
+38 silly install resolved     _from: 'body-parser@*',
+38 silly install resolved     _npmVersion: '1.4.28',
+38 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+38 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+38 silly install resolved     dist:
+38 silly install resolved      { shasum: '229262a4fd2e402dfb88d99bc27d8be31307e7e9',
+38 silly install resolved        tarball: 'http://registry.npmjs.org/body-parser/-/body-parser-1.13.2.tgz' },
+38 silly install resolved     directories: {},
+38 silly install resolved     _resolved: 'https://registry.npmjs.org/body-parser/-/body-parser-1.13.2.tgz',
+38 silly install resolved     readme: 'ERROR: No README data found!' } ]
+39 info install body-parser@1.13.2 into /Backup/MARUF/GIT/NodeJS/Rest
+40 info installOne body-parser@1.13.2
+41 verbose installOne of body-parser to /Backup/MARUF/GIT/NodeJS/Rest not in flight; installing
+42 verbose lock using /Users/newscred/.npm/_locks/body-parser-0496836430fd1d30.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+43 silly install write writing body-parser 1.13.2 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+44 silly cache addNamed cb body-parser@1.13.2
+45 verbose unbuild node_modules/body-parser
+46 info preuninstall body-parser@1.13.2
+47 info uninstall body-parser@1.13.2
+48 verbose unbuild rmStuff body-parser@1.13.2 from /Backup/MARUF/GIT/NodeJS/Rest/node_modules
+49 info postuninstall body-parser@1.13.2
+50 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+51 silly gentlyRm purging /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+52 silly gentlyRm quitting because other entries in /Backup/MARUF/GIT/NodeJS/Rest/node_modules
+53 verbose tar unpack /Users/newscred/.npm/body-parser/1.13.2/package.tgz
+54 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+55 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+61 silly gunzTarPerm extractEntry LICENSE
+62 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+63 silly gunzTarPerm extractEntry index.js
+64 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+65 silly gunzTarPerm extractEntry HISTORY.md
+66 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+67 silly gunzTarPerm extractEntry lib/read.js
+68 silly gunzTarPerm modified mode [ 'lib/read.js', 438, 420 ]
+69 silly gunzTarPerm extractEntry lib/types/json.js
+70 silly gunzTarPerm modified mode [ 'lib/types/json.js', 438, 420 ]
+71 silly gunzTarPerm extractEntry lib/types/raw.js
+72 silly gunzTarPerm modified mode [ 'lib/types/raw.js', 438, 420 ]
+73 silly gunzTarPerm extractEntry lib/types/text.js
+74 silly gunzTarPerm modified mode [ 'lib/types/text.js', 438, 420 ]
+75 silly gunzTarPerm extractEntry lib/types/urlencoded.js
+76 silly gunzTarPerm modified mode [ 'lib/types/urlencoded.js', 438, 420 ]
+77 info preinstall body-parser@1.13.2
+78 silly prepareForInstallMany adding bytes@2.1.0 from body-parser dependencies
+79 silly prepareForInstallMany adding content-type@~1.0.1 from body-parser dependencies
+80 silly prepareForInstallMany adding debug@~2.2.0 from body-parser dependencies
+81 silly prepareForInstallMany adding depd@~1.0.1 from body-parser dependencies
+82 silly prepareForInstallMany adding http-errors@~1.3.1 from body-parser dependencies
+83 silly prepareForInstallMany adding iconv-lite@0.4.11 from body-parser dependencies
+84 silly prepareForInstallMany adding on-finished@~2.3.0 from body-parser dependencies
+85 silly prepareForInstallMany adding qs@4.0.0 from body-parser dependencies
+86 silly prepareForInstallMany adding raw-body@~2.1.2 from body-parser dependencies
+87 silly prepareForInstallMany adding type-is@~1.6.4 from body-parser dependencies
+88 silly cache add args [ 'content-type@~1.0.1', null ]
+89 verbose cache add spec content-type@~1.0.1
+90 silly cache add parsed spec { raw: 'content-type@~1.0.1',
+90 silly cache add   scope: null,
+90 silly cache add   name: 'content-type',
+90 silly cache add   rawSpec: '~1.0.1',
+90 silly cache add   spec: '>=1.0.1 <1.1.0',
+90 silly cache add   type: 'range' }
+91 verbose addNamed content-type@>=1.0.1 <1.1.0
+92 silly addNamed semver.valid null
+93 silly addNamed semver.validRange >=1.0.1 <1.1.0
+94 silly addNameRange { name: 'content-type', range: '>=1.0.1 <1.1.0', hasData: false }
+95 silly mapToRegistry name content-type
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry uri https://registry.npmjs.org/content-type
+99 verbose addNameRange registry:https://registry.npmjs.org/content-type not in flight; fetching
+100 silly cache add args [ 'debug@~2.2.0', null ]
+101 verbose cache add spec debug@~2.2.0
+102 silly cache add parsed spec { raw: 'debug@~2.2.0',
+102 silly cache add   scope: null,
+102 silly cache add   name: 'debug',
+102 silly cache add   rawSpec: '~2.2.0',
+102 silly cache add   spec: '>=2.2.0 <2.3.0',
+102 silly cache add   type: 'range' }
+103 verbose addNamed debug@>=2.2.0 <2.3.0
+104 silly addNamed semver.valid null
+105 silly addNamed semver.validRange >=2.2.0 <2.3.0
+106 silly addNameRange { name: 'debug', range: '>=2.2.0 <2.3.0', hasData: false }
+107 silly mapToRegistry name debug
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/debug
+111 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+112 silly cache add args [ 'depd@~1.0.1', null ]
+113 verbose cache add spec depd@~1.0.1
+114 silly cache add parsed spec { raw: 'depd@~1.0.1',
+114 silly cache add   scope: null,
+114 silly cache add   name: 'depd',
+114 silly cache add   rawSpec: '~1.0.1',
+114 silly cache add   spec: '>=1.0.1 <1.1.0',
+114 silly cache add   type: 'range' }
+115 verbose addNamed depd@>=1.0.1 <1.1.0
+116 silly addNamed semver.valid null
+117 silly addNamed semver.validRange >=1.0.1 <1.1.0
+118 silly addNameRange { name: 'depd', range: '>=1.0.1 <1.1.0', hasData: false }
+119 silly mapToRegistry name depd
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry uri https://registry.npmjs.org/depd
+123 verbose addNameRange registry:https://registry.npmjs.org/depd not in flight; fetching
+124 silly cache add args [ 'http-errors@~1.3.1', null ]
+125 verbose cache add spec http-errors@~1.3.1
+126 silly cache add parsed spec { raw: 'http-errors@~1.3.1',
+126 silly cache add   scope: null,
+126 silly cache add   name: 'http-errors',
+126 silly cache add   rawSpec: '~1.3.1',
+126 silly cache add   spec: '>=1.3.1 <1.4.0',
+126 silly cache add   type: 'range' }
+127 verbose addNamed http-errors@>=1.3.1 <1.4.0
+128 silly addNamed semver.valid null
+129 silly addNamed semver.validRange >=1.3.1 <1.4.0
+130 silly addNameRange { name: 'http-errors', range: '>=1.3.1 <1.4.0', hasData: false }
+131 silly mapToRegistry name http-errors
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npmjs.org/
+134 silly mapToRegistry uri https://registry.npmjs.org/http-errors
+135 verbose addNameRange registry:https://registry.npmjs.org/http-errors not in flight; fetching
+136 silly cache add args [ 'iconv-lite@0.4.11', null ]
+137 verbose cache add spec iconv-lite@0.4.11
+138 silly cache add parsed spec { raw: 'iconv-lite@0.4.11',
+138 silly cache add   scope: null,
+138 silly cache add   name: 'iconv-lite',
+138 silly cache add   rawSpec: '0.4.11',
+138 silly cache add   spec: '0.4.11',
+138 silly cache add   type: 'version' }
+139 verbose addNamed iconv-lite@0.4.11
+140 silly addNamed semver.valid 0.4.11
+141 silly addNamed semver.validRange 0.4.11
+142 silly mapToRegistry name iconv-lite
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+146 verbose addNameVersion registry:https://registry.npmjs.org/iconv-lite not in flight; fetching
+147 silly cache add args [ 'on-finished@~2.3.0', null ]
+148 verbose cache add spec on-finished@~2.3.0
+149 silly cache add parsed spec { raw: 'on-finished@~2.3.0',
+149 silly cache add   scope: null,
+149 silly cache add   name: 'on-finished',
+149 silly cache add   rawSpec: '~2.3.0',
+149 silly cache add   spec: '>=2.3.0 <2.4.0',
+149 silly cache add   type: 'range' }
+150 verbose addNamed on-finished@>=2.3.0 <2.4.0
+151 silly addNamed semver.valid null
+152 silly addNamed semver.validRange >=2.3.0 <2.4.0
+153 silly addNameRange { name: 'on-finished', range: '>=2.3.0 <2.4.0', hasData: false }
+154 silly mapToRegistry name on-finished
+155 silly mapToRegistry using default registry
+156 silly mapToRegistry registry https://registry.npmjs.org/
+157 silly mapToRegistry uri https://registry.npmjs.org/on-finished
+158 verbose addNameRange registry:https://registry.npmjs.org/on-finished not in flight; fetching
+159 silly cache add args [ 'qs@4.0.0', null ]
+160 verbose cache add spec qs@4.0.0
+161 silly cache add parsed spec { raw: 'qs@4.0.0',
+161 silly cache add   scope: null,
+161 silly cache add   name: 'qs',
+161 silly cache add   rawSpec: '4.0.0',
+161 silly cache add   spec: '4.0.0',
+161 silly cache add   type: 'version' }
+162 verbose addNamed qs@4.0.0
+163 silly addNamed semver.valid 4.0.0
+164 silly addNamed semver.validRange 4.0.0
+165 silly mapToRegistry name qs
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry https://registry.npmjs.org/
+168 silly mapToRegistry uri https://registry.npmjs.org/qs
+169 verbose addNameVersion registry:https://registry.npmjs.org/qs not in flight; fetching
+170 silly cache add args [ 'raw-body@~2.1.2', null ]
+171 verbose cache add spec raw-body@~2.1.2
+172 silly cache add parsed spec { raw: 'raw-body@~2.1.2',
+172 silly cache add   scope: null,
+172 silly cache add   name: 'raw-body',
+172 silly cache add   rawSpec: '~2.1.2',
+172 silly cache add   spec: '>=2.1.2 <2.2.0',
+172 silly cache add   type: 'range' }
+173 verbose addNamed raw-body@>=2.1.2 <2.2.0
+174 silly addNamed semver.valid null
+175 silly addNamed semver.validRange >=2.1.2 <2.2.0
+176 silly addNameRange { name: 'raw-body', range: '>=2.1.2 <2.2.0', hasData: false }
+177 silly mapToRegistry name raw-body
+178 silly mapToRegistry using default registry
+179 silly mapToRegistry registry https://registry.npmjs.org/
+180 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+181 verbose addNameRange registry:https://registry.npmjs.org/raw-body not in flight; fetching
+182 silly cache add args [ 'type-is@~1.6.4', null ]
+183 verbose cache add spec type-is@~1.6.4
+184 silly cache add parsed spec { raw: 'type-is@~1.6.4',
+184 silly cache add   scope: null,
+184 silly cache add   name: 'type-is',
+184 silly cache add   rawSpec: '~1.6.4',
+184 silly cache add   spec: '>=1.6.4 <1.7.0',
+184 silly cache add   type: 'range' }
+185 verbose addNamed type-is@>=1.6.4 <1.7.0
+186 silly addNamed semver.valid null
+187 silly addNamed semver.validRange >=1.6.4 <1.7.0
+188 silly addNameRange { name: 'type-is', range: '>=1.6.4 <1.7.0', hasData: false }
+189 silly mapToRegistry name type-is
+190 silly mapToRegistry using default registry
+191 silly mapToRegistry registry https://registry.npmjs.org/
+192 silly mapToRegistry uri https://registry.npmjs.org/type-is
+193 verbose addNameRange registry:https://registry.npmjs.org/type-is not in flight; fetching
+194 silly cache add args [ 'bytes@2.1.0', null ]
+195 verbose cache add spec bytes@2.1.0
+196 silly cache add parsed spec { raw: 'bytes@2.1.0',
+196 silly cache add   scope: null,
+196 silly cache add   name: 'bytes',
+196 silly cache add   rawSpec: '2.1.0',
+196 silly cache add   spec: '2.1.0',
+196 silly cache add   type: 'version' }
+197 verbose addNamed bytes@2.1.0
+198 silly addNamed semver.valid 2.1.0
+199 silly addNamed semver.validRange 2.1.0
+200 silly mapToRegistry name bytes
+201 silly mapToRegistry using default registry
+202 silly mapToRegistry registry https://registry.npmjs.org/
+203 silly mapToRegistry uri https://registry.npmjs.org/bytes
+204 verbose addNameVersion registry:https://registry.npmjs.org/bytes not in flight; fetching
+205 verbose request uri https://registry.npmjs.org/content-type
+206 verbose request no auth needed
+207 info attempt registry request try #1 at 09:45:59
+208 verbose etag "8O24AGWIP2HNNPS49I8AYDZS8"
+209 http request GET https://registry.npmjs.org/content-type
+210 verbose request uri https://registry.npmjs.org/depd
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 09:45:59
+213 verbose etag "EXES9RDIT31NIDPYYVZ47XB58"
+214 http request GET https://registry.npmjs.org/depd
+215 verbose request uri https://registry.npmjs.org/debug
+216 verbose request no auth needed
+217 info attempt registry request try #1 at 09:45:59
+218 verbose etag "81OSLK7EJMMIA2FPVBDRX54Q2"
+219 http request GET https://registry.npmjs.org/debug
+220 verbose request uri https://registry.npmjs.org/http-errors
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 09:45:59
+223 verbose etag "SXH43K3HIBV84M1DG2Y3Y70Q"
+224 http request GET https://registry.npmjs.org/http-errors
+225 verbose request uri https://registry.npmjs.org/on-finished
+226 verbose request no auth needed
+227 info attempt registry request try #1 at 09:45:59
+228 verbose etag "C44T40JT6D1IJCD9FNXBNZP4B"
+229 http request GET https://registry.npmjs.org/on-finished
+230 verbose request uri https://registry.npmjs.org/iconv-lite
+231 verbose request no auth needed
+232 info attempt registry request try #1 at 09:45:59
+233 verbose etag "8O8E0QDSKY2ZF5IZ9IN9XC03H"
+234 http request GET https://registry.npmjs.org/iconv-lite
+235 verbose request uri https://registry.npmjs.org/qs
+236 verbose request no auth needed
+237 info attempt registry request try #1 at 09:45:59
+238 verbose etag "38OJKGWXUDPO9PTR9PK5B4R2U"
+239 http request GET https://registry.npmjs.org/qs
+240 verbose request uri https://registry.npmjs.org/raw-body
+241 verbose request no auth needed
+242 info attempt registry request try #1 at 09:45:59
+243 verbose etag "2BX8CP4JQ0P5EZ26SS8MJX2OY"
+244 http request GET https://registry.npmjs.org/raw-body
+245 verbose request uri https://registry.npmjs.org/type-is
+246 verbose request no auth needed
+247 info attempt registry request try #1 at 09:45:59
+248 verbose etag "5JGQC0CTER1SRBJ1AWYSDHHZO"
+249 http request GET https://registry.npmjs.org/type-is
+250 verbose request uri https://registry.npmjs.org/bytes
+251 verbose request no auth needed
+252 info attempt registry request try #1 at 09:45:59
+253 verbose etag "E96BNQ48UBQJRVP6GS44HMVRQ"
+254 http request GET https://registry.npmjs.org/bytes
+255 http 304 https://registry.npmjs.org/content-type
+256 silly get cb [ 304,
+256 silly get   { date: 'Thu, 09 Jul 2015 03:46:01 GMT',
+256 silly get     via: '1.1 varnish',
+256 silly get     'cache-control': 'max-age=60',
+256 silly get     etag: '"8O24AGWIP2HNNPS49I8AYDZS8"',
+256 silly get     age: '35',
+256 silly get     connection: 'keep-alive',
+256 silly get     'x-served-by': 'cache-ams4123-AMS',
+256 silly get     'x-cache': 'HIT',
+256 silly get     'x-cache-hits': '1',
+256 silly get     'x-timer': 'S1436413561.238291,VS0,VE0',
+256 silly get     vary: 'Accept' } ]
+257 verbose etag https://registry.npmjs.org/content-type from cache
+258 verbose get saving content-type to /Users/newscred/.npm/registry.npmjs.org/content-type/.cache.json
+259 http 304 https://registry.npmjs.org/on-finished
+260 silly get cb [ 304,
+260 silly get   { date: 'Thu, 09 Jul 2015 03:46:01 GMT',
+260 silly get     via: '1.1 varnish',
+260 silly get     'cache-control': 'max-age=60',
+260 silly get     etag: '"C44T40JT6D1IJCD9FNXBNZP4B"',
+260 silly get     age: '36',
+260 silly get     connection: 'keep-alive',
+260 silly get     'x-served-by': 'cache-ams4144-AMS',
+260 silly get     'x-cache': 'HIT',
+260 silly get     'x-cache-hits': '2',
+260 silly get     'x-timer': 'S1436413561.239272,VS0,VE0',
+260 silly get     vary: 'Accept' } ]
+261 verbose etag https://registry.npmjs.org/on-finished from cache
+262 verbose get saving on-finished to /Users/newscred/.npm/registry.npmjs.org/on-finished/.cache.json
+263 http 304 https://registry.npmjs.org/raw-body
+264 silly get cb [ 304,
+264 silly get   { date: 'Thu, 09 Jul 2015 03:46:01 GMT',
+264 silly get     via: '1.1 varnish',
+264 silly get     'cache-control': 'max-age=60',
+264 silly get     etag: '"2BX8CP4JQ0P5EZ26SS8MJX2OY"',
+264 silly get     age: '50',
+264 silly get     connection: 'keep-alive',
+264 silly get     'x-served-by': 'cache-ams4123-AMS',
+264 silly get     'x-cache': 'HIT',
+264 silly get     'x-cache-hits': '1',
+264 silly get     'x-timer': 'S1436413561.245514,VS0,VE0',
+264 silly get     vary: 'Accept' } ]
+265 verbose etag https://registry.npmjs.org/raw-body from cache
+266 verbose get saving raw-body to /Users/newscred/.npm/registry.npmjs.org/raw-body/.cache.json
+267 silly addNameRange number 2 { name: 'on-finished', range: '>=2.3.0 <2.4.0', hasData: true }
+268 silly addNameRange versions [ 'on-finished',
+268 silly addNameRange   [ '2.0.0', '2.1.0', '2.1.1', '2.2.0', '2.2.1', '2.3.0' ] ]
+269 verbose addNamed on-finished@2.3.0
+270 silly addNamed semver.valid 2.3.0
+271 silly addNamed semver.validRange 2.3.0
+272 http 304 https://registry.npmjs.org/depd
+273 silly get cb [ 304,
+273 silly get   { date: 'Thu, 09 Jul 2015 03:46:01 GMT',
+273 silly get     via: '1.1 varnish',
+273 silly get     'cache-control': 'max-age=60',
+273 silly get     etag: '"EXES9RDIT31NIDPYYVZ47XB58"',
+273 silly get     age: '51',
+273 silly get     connection: 'keep-alive',
+273 silly get     'x-served-by': 'cache-ams4145-AMS',
+273 silly get     'x-cache': 'HIT',
+273 silly get     'x-cache-hits': '1',
+273 silly get     'x-timer': 'S1436413561.246602,VS0,VE0',
+273 silly get     vary: 'Accept' } ]
+274 verbose etag https://registry.npmjs.org/depd from cache
+275 verbose get saving depd to /Users/newscred/.npm/registry.npmjs.org/depd/.cache.json
+276 http 304 https://registry.npmjs.org/iconv-lite
+277 silly get cb [ 304,
+277 silly get   { date: 'Thu, 09 Jul 2015 03:46:01 GMT',
+277 silly get     via: '1.1 varnish',
+277 silly get     'cache-control': 'max-age=60',
+277 silly get     etag: '"8O8E0QDSKY2ZF5IZ9IN9XC03H"',
+277 silly get     age: '50',
+277 silly get     connection: 'keep-alive',
+277 silly get     'x-served-by': 'cache-ams4134-AMS',
+277 silly get     'x-cache': 'HIT',
+277 silly get     'x-cache-hits': '1',
+277 silly get     'x-timer': 'S1436413561.253230,VS0,VE0',
+277 silly get     vary: 'Accept' } ]
+278 verbose etag https://registry.npmjs.org/iconv-lite from cache
+279 verbose get saving iconv-lite to /Users/newscred/.npm/registry.npmjs.org/iconv-lite/.cache.json
+280 silly addNameRange number 2 { name: 'raw-body', range: '>=2.1.2 <2.2.0', hasData: true }
+281 silly addNameRange versions [ 'raw-body',
+281 silly addNameRange   [ '0.0.1',
+281 silly addNameRange     '0.0.2',
+281 silly addNameRange     '0.0.3',
+281 silly addNameRange     '0.1.0',
+281 silly addNameRange     '0.1.1',
+281 silly addNameRange     '0.2.0',
+281 silly addNameRange     '1.0.0',
+281 silly addNameRange     '1.0.1',
+281 silly addNameRange     '1.1.0',
+281 silly addNameRange     '1.1.1',
+281 silly addNameRange     '1.1.2',
+281 silly addNameRange     '1.1.3',
+281 silly addNameRange     '1.1.4',
+281 silly addNameRange     '1.1.5',
+281 silly addNameRange     '1.1.6',
+281 silly addNameRange     '1.1.7',
+281 silly addNameRange     '1.2.0',
+281 silly addNameRange     '1.2.1',
+281 silly addNameRange     '1.2.2',
+281 silly addNameRange     '1.2.3',
+281 silly addNameRange     '1.3.0',
+281 silly addNameRange     '1.3.1',
+281 silly addNameRange     '1.3.2',
+281 silly addNameRange     '1.3.3',
+281 silly addNameRange     '1.3.4',
+281 silly addNameRange     '2.0.0',
+281 silly addNameRange     '2.0.1',
+281 silly addNameRange     '2.0.2',
+281 silly addNameRange     '2.1.0',
+281 silly addNameRange     '2.1.1',
+281 silly addNameRange     '2.1.2' ] ]
+282 verbose addNamed raw-body@2.1.2
+283 silly addNamed semver.valid 2.1.2
+284 silly addNamed semver.validRange 2.1.2
+285 silly addNameRange number 2 { name: 'content-type', range: '>=1.0.1 <1.1.0', hasData: true }
+286 silly addNameRange versions [ 'content-type', [ '0.0.1', '1.0.0', '1.0.1' ] ]
+287 verbose addNamed content-type@1.0.1
+288 silly addNamed semver.valid 1.0.1
+289 silly addNamed semver.validRange 1.0.1
+290 silly cache afterAdd on-finished@2.3.0
+291 verbose afterAdd /Users/newscred/.npm/on-finished/2.3.0/package/package.json not in flight; writing
+292 silly cache afterAdd raw-body@2.1.2
+293 verbose afterAdd /Users/newscred/.npm/raw-body/2.1.2/package/package.json not in flight; writing
+294 silly addNameRange number 2 { name: 'depd', range: '>=1.0.1 <1.1.0', hasData: true }
+295 silly addNameRange versions [ 'depd',
+295 silly addNameRange   [ '0.0.0',
+295 silly addNameRange     '0.0.1',
+295 silly addNameRange     '0.1.0',
+295 silly addNameRange     '0.2.0',
+295 silly addNameRange     '0.3.0',
+295 silly addNameRange     '0.4.0',
+295 silly addNameRange     '0.4.1',
+295 silly addNameRange     '0.4.2',
+295 silly addNameRange     '0.4.3',
+295 silly addNameRange     '0.4.4',
+295 silly addNameRange     '0.4.5',
+295 silly addNameRange     '1.0.0',
+295 silly addNameRange     '1.0.1' ] ]
+296 verbose addNamed depd@1.0.1
+297 silly addNamed semver.valid 1.0.1
+298 silly addNamed semver.validRange 1.0.1
+299 silly cache afterAdd content-type@1.0.1
+300 verbose afterAdd /Users/newscred/.npm/content-type/1.0.1/package/package.json not in flight; writing
+301 verbose afterAdd /Users/newscred/.npm/on-finished/2.3.0/package/package.json written
+302 verbose afterAdd /Users/newscred/.npm/raw-body/2.1.2/package/package.json written
+303 verbose afterAdd /Users/newscred/.npm/content-type/1.0.1/package/package.json written
+304 silly cache afterAdd depd@1.0.1
+305 verbose afterAdd /Users/newscred/.npm/depd/1.0.1/package/package.json not in flight; writing
+306 silly cache afterAdd iconv-lite@0.4.11
+307 verbose afterAdd /Users/newscred/.npm/iconv-lite/0.4.11/package/package.json not in flight; writing
+308 verbose afterAdd /Users/newscred/.npm/depd/1.0.1/package/package.json written
+309 verbose afterAdd /Users/newscred/.npm/iconv-lite/0.4.11/package/package.json written
+310 http 304 https://registry.npmjs.org/type-is
+311 silly get cb [ 304,
+311 silly get   { date: 'Thu, 09 Jul 2015 03:46:01 GMT',
+311 silly get     via: '1.1 varnish',
+311 silly get     'cache-control': 'max-age=60',
+311 silly get     etag: '"5JGQC0CTER1SRBJ1AWYSDHHZO"',
+311 silly get     age: '36',
+311 silly get     connection: 'keep-alive',
+311 silly get     'x-served-by': 'cache-ams4148-AMS',
+311 silly get     'x-cache': 'HIT',
+311 silly get     'x-cache-hits': '1',
+311 silly get     'x-timer': 'S1436413561.984347,VS0,VE0',
+311 silly get     vary: 'Accept' } ]
+312 verbose etag https://registry.npmjs.org/type-is from cache
+313 verbose get saving type-is to /Users/newscred/.npm/registry.npmjs.org/type-is/.cache.json
+314 http 304 https://registry.npmjs.org/qs
+315 silly get cb [ 304,
+315 silly get   { date: 'Thu, 09 Jul 2015 03:46:01 GMT',
+315 silly get     via: '1.1 varnish',
+315 silly get     'cache-control': 'max-age=60',
+315 silly get     etag: '"38OJKGWXUDPO9PTR9PK5B4R2U"',
+315 silly get     age: '47',
+315 silly get     connection: 'keep-alive',
+315 silly get     'x-served-by': 'cache-ams4129-AMS',
+315 silly get     'x-cache': 'HIT',
+315 silly get     'x-cache-hits': '1',
+315 silly get     'x-timer': 'S1436413561.988898,VS0,VE0',
+315 silly get     vary: 'Accept' } ]
+316 verbose etag https://registry.npmjs.org/qs from cache
+317 verbose get saving qs to /Users/newscred/.npm/registry.npmjs.org/qs/.cache.json
+318 http 304 https://registry.npmjs.org/debug
+319 silly get cb [ 304,
+319 silly get   { date: 'Thu, 09 Jul 2015 03:46:01 GMT',
+319 silly get     via: '1.1 varnish',
+319 silly get     'cache-control': 'max-age=60',
+319 silly get     etag: '"81OSLK7EJMMIA2FPVBDRX54Q2"',
+319 silly get     age: '46',
+319 silly get     connection: 'keep-alive',
+319 silly get     'x-served-by': 'cache-ams4123-AMS',
+319 silly get     'x-cache': 'HIT',
+319 silly get     'x-cache-hits': '1',
+319 silly get     'x-timer': 'S1436413561.986901,VS0,VE0',
+319 silly get     vary: 'Accept' } ]
+320 verbose etag https://registry.npmjs.org/debug from cache
+321 verbose get saving debug to /Users/newscred/.npm/registry.npmjs.org/debug/.cache.json
+322 http 304 https://registry.npmjs.org/bytes
+323 silly get cb [ 304,
+323 silly get   { date: 'Thu, 09 Jul 2015 03:46:01 GMT',
+323 silly get     via: '1.1 varnish',
+323 silly get     'cache-control': 'max-age=60',
+323 silly get     etag: '"E96BNQ48UBQJRVP6GS44HMVRQ"',
+323 silly get     age: '36',
+323 silly get     connection: 'keep-alive',
+323 silly get     'x-served-by': 'cache-ams4120-AMS',
+323 silly get     'x-cache': 'HIT',
+323 silly get     'x-cache-hits': '2',
+323 silly get     'x-timer': 'S1436413561.993723,VS0,VE0',
+323 silly get     vary: 'Accept' } ]
+324 verbose etag https://registry.npmjs.org/bytes from cache
+325 verbose get saving bytes to /Users/newscred/.npm/registry.npmjs.org/bytes/.cache.json
+326 silly addNameRange number 2 { name: 'type-is', range: '>=1.6.4 <1.7.0', hasData: true }
+327 silly addNameRange versions [ 'type-is',
+327 silly addNameRange   [ '1.0.0',
+327 silly addNameRange     '1.0.1',
+327 silly addNameRange     '1.1.0',
+327 silly addNameRange     '1.2.0',
+327 silly addNameRange     '1.2.1',
+327 silly addNameRange     '1.2.2',
+327 silly addNameRange     '1.3.0',
+327 silly addNameRange     '1.3.1',
+327 silly addNameRange     '1.3.2',
+327 silly addNameRange     '1.4.0',
+327 silly addNameRange     '1.5.0',
+327 silly addNameRange     '1.5.1',
+327 silly addNameRange     '1.5.2',
+327 silly addNameRange     '1.5.3',
+327 silly addNameRange     '1.5.4',
+327 silly addNameRange     '1.5.5',
+327 silly addNameRange     '1.5.6',
+327 silly addNameRange     '1.5.7',
+327 silly addNameRange     '1.6.0',
+327 silly addNameRange     '1.6.1',
+327 silly addNameRange     '1.6.2',
+327 silly addNameRange     '1.6.3',
+327 silly addNameRange     '1.6.4' ] ]
+328 verbose addNamed type-is@1.6.4
+329 silly addNamed semver.valid 1.6.4
+330 silly addNamed semver.validRange 1.6.4
+331 silly addNameRange number 2 { name: 'debug', range: '>=2.2.0 <2.3.0', hasData: true }
+332 silly addNameRange versions [ 'debug',
+332 silly addNameRange   [ '0.0.1',
+332 silly addNameRange     '0.1.0',
+332 silly addNameRange     '0.2.0',
+332 silly addNameRange     '0.3.0',
+332 silly addNameRange     '0.4.0',
+332 silly addNameRange     '0.4.1',
+332 silly addNameRange     '0.5.0',
+332 silly addNameRange     '0.6.0',
+332 silly addNameRange     '0.7.0',
+332 silly addNameRange     '0.7.1',
+332 silly addNameRange     '0.7.2',
+332 silly addNameRange     '0.7.3',
+332 silly addNameRange     '0.7.4',
+332 silly addNameRange     '0.8.0',
+332 silly addNameRange     '0.8.1',
+332 silly addNameRange     '1.0.0',
+332 silly addNameRange     '1.0.1',
+332 silly addNameRange     '1.0.2',
+332 silly addNameRange     '1.0.3',
+332 silly addNameRange     '1.0.4',
+332 silly addNameRange     '2.0.0',
+332 silly addNameRange     '2.1.0',
+332 silly addNameRange     '2.1.1',
+332 silly addNameRange     '2.1.2',
+332 silly addNameRange     '2.1.3',
+332 silly addNameRange     '2.2.0' ] ]
+333 verbose addNamed debug@2.2.0
+334 silly addNamed semver.valid 2.2.0
+335 silly addNamed semver.validRange 2.2.0
+336 silly cache afterAdd qs@4.0.0
+337 verbose afterAdd /Users/newscred/.npm/qs/4.0.0/package/package.json not in flight; writing
+338 silly cache afterAdd type-is@1.6.4
+339 verbose afterAdd /Users/newscred/.npm/type-is/1.6.4/package/package.json not in flight; writing
+340 verbose afterAdd /Users/newscred/.npm/qs/4.0.0/package/package.json written
+341 silly cache afterAdd debug@2.2.0
+342 verbose afterAdd /Users/newscred/.npm/debug/2.2.0/package/package.json not in flight; writing
+343 silly cache afterAdd bytes@2.1.0
+344 verbose afterAdd /Users/newscred/.npm/bytes/2.1.0/package/package.json not in flight; writing
+345 verbose afterAdd /Users/newscred/.npm/type-is/1.6.4/package/package.json written
+346 verbose afterAdd /Users/newscred/.npm/debug/2.2.0/package/package.json written
+347 verbose afterAdd /Users/newscred/.npm/bytes/2.1.0/package/package.json written
+348 http 304 https://registry.npmjs.org/http-errors
+349 silly get cb [ 304,
+349 silly get   { date: 'Thu, 09 Jul 2015 03:46:02 GMT',
+349 silly get     via: '1.1 varnish',
+349 silly get     'cache-control': 'max-age=60',
+349 silly get     etag: '"SXH43K3HIBV84M1DG2Y3Y70Q"',
+349 silly get     age: '36',
+349 silly get     connection: 'keep-alive',
+349 silly get     'x-served-by': 'cache-ams4127-AMS',
+349 silly get     'x-cache': 'HIT',
+349 silly get     'x-cache-hits': '1',
+349 silly get     'x-timer': 'S1436413562.349627,VS0,VE0',
+349 silly get     vary: 'Accept' } ]
+350 verbose etag https://registry.npmjs.org/http-errors from cache
+351 verbose get saving http-errors to /Users/newscred/.npm/registry.npmjs.org/http-errors/.cache.json
+352 silly addNameRange number 2 { name: 'http-errors', range: '>=1.3.1 <1.4.0', hasData: true }
+353 silly addNameRange versions [ 'http-errors',
+353 silly addNameRange   [ '0.0.1',
+353 silly addNameRange     '1.0.0',
+353 silly addNameRange     '1.0.1',
+353 silly addNameRange     '1.1.0',
+353 silly addNameRange     '1.2.0',
+353 silly addNameRange     '1.2.1',
+353 silly addNameRange     '1.2.2',
+353 silly addNameRange     '1.2.3',
+353 silly addNameRange     '1.2.4',
+353 silly addNameRange     '1.2.5',
+353 silly addNameRange     '1.2.6',
+353 silly addNameRange     '1.2.7',
+353 silly addNameRange     '1.2.8',
+353 silly addNameRange     '1.3.0',
+353 silly addNameRange     '1.3.1' ] ]
+354 verbose addNamed http-errors@1.3.1
+355 silly addNamed semver.valid 1.3.1
+356 silly addNamed semver.validRange 1.3.1
+357 silly cache afterAdd http-errors@1.3.1
+358 verbose afterAdd /Users/newscred/.npm/http-errors/1.3.1/package/package.json not in flight; writing
+359 verbose afterAdd /Users/newscred/.npm/http-errors/1.3.1/package/package.json written
+360 silly install resolved [ { name: 'on-finished',
+360 silly install resolved     description: 'Execute a callback when a request closes, finishes, or errors',
+360 silly install resolved     version: '2.3.0',
+360 silly install resolved     contributors: [ [Object], [Object] ],
+360 silly install resolved     license: 'MIT',
+360 silly install resolved     repository: { type: 'git', url: 'https://github.com/jshttp/on-finished' },
+360 silly install resolved     dependencies: { 'ee-first': '1.1.1' },
+360 silly install resolved     devDependencies: { istanbul: '0.3.9', mocha: '2.2.5' },
+360 silly install resolved     engines: { node: '>= 0.8' },
+360 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'index.js' ],
+360 silly install resolved     scripts:
+360 silly install resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+360 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+360 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+360 silly install resolved     gitHead: '34babcb58126a416fcf5205768204f2e12699dda',
+360 silly install resolved     bugs: { url: 'https://github.com/jshttp/on-finished/issues' },
+360 silly install resolved     homepage: 'https://github.com/jshttp/on-finished',
+360 silly install resolved     _id: 'on-finished@2.3.0',
+360 silly install resolved     _shasum: '20f1336481b083cd75337992a16971aa2d906947',
+360 silly install resolved     _from: 'on-finished@>=2.3.0 <2.4.0',
+360 silly install resolved     _npmVersion: '1.4.28',
+360 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+360 silly install resolved     maintainers: [ [Object], [Object] ],
+360 silly install resolved     dist:
+360 silly install resolved      { shasum: '20f1336481b083cd75337992a16971aa2d906947',
+360 silly install resolved        tarball: 'http://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz' },
+360 silly install resolved     directories: {},
+360 silly install resolved     _resolved: 'https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz',
+360 silly install resolved     readme: 'ERROR: No README data found!' },
+360 silly install resolved   { name: 'raw-body',
+360 silly install resolved     description: 'Get and validate the raw body of a readable stream.',
+360 silly install resolved     version: '2.1.2',
+360 silly install resolved     author:
+360 silly install resolved      { name: 'Jonathan Ong',
+360 silly install resolved        email: 'me@jongleberry.com',
+360 silly install resolved        url: 'http://jongleberry.com' },
+360 silly install resolved     contributors: [ [Object], [Object] ],
+360 silly install resolved     license: 'MIT',
+360 silly install resolved     repository: { type: 'git', url: 'https://github.com/stream-utils/raw-body' },
+360 silly install resolved     dependencies: { bytes: '2.1.0', 'iconv-lite': '0.4.11', unpipe: '1.0.0' },
+360 silly install resolved     devDependencies:
+360 silly install resolved      { bluebird: '2.9.32',
+360 silly install resolved        istanbul: '0.3.17',
+360 silly install resolved        mocha: '2.2.5',
+360 silly install resolved        'readable-stream': '2.0.1',
+360 silly install resolved        through2: '2.0.0' },
+360 silly install resolved     engines: { node: '>= 0.8' },
+360 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'README.md', 'index.js' ],
+360 silly install resolved     scripts:
+360 silly install resolved      { test: 'mocha --trace-deprecation --reporter spec --bail --check-leaks test/',
+360 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --trace-deprecation --reporter dot --check-leaks test/',
+360 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --trace-deprecation --reporter spec --check-leaks test/' },
+360 silly install resolved     gitHead: 'a0490f86b259038c85e99097cade70ee78aa5e1e',
+360 silly install resolved     bugs: { url: 'https://github.com/stream-utils/raw-body/issues' },
+360 silly install resolved     homepage: 'https://github.com/stream-utils/raw-body',
+360 silly install resolved     _id: 'raw-body@2.1.2',
+360 silly install resolved     _shasum: '63481a805ba30ed7d59ad4433b20eb850f95e887',
+360 silly install resolved     _from: 'raw-body@>=2.1.2 <2.2.0',
+360 silly install resolved     _npmVersion: '1.4.28',
+360 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+360 silly install resolved     maintainers: [ [Object], [Object] ],
+360 silly install resolved     dist:
+360 silly install resolved      { shasum: '63481a805ba30ed7d59ad4433b20eb850f95e887',
+360 silly install resolved        tarball: 'http://registry.npmjs.org/raw-body/-/raw-body-2.1.2.tgz' },
+360 silly install resolved     directories: {},
+360 silly install resolved     _resolved: 'https://registry.npmjs.org/raw-body/-/raw-body-2.1.2.tgz',
+360 silly install resolved     readme: 'ERROR: No README data found!' },
+360 silly install resolved   { name: 'content-type',
+360 silly install resolved     description: 'Create and parse HTTP Content-Type header',
+360 silly install resolved     version: '1.0.1',
+360 silly install resolved     author:
+360 silly install resolved      { name: 'Douglas Christopher Wilson',
+360 silly install resolved        email: 'doug@somethingdoug.com' },
+360 silly install resolved     license: 'MIT',
+360 silly install resolved     keywords: [ 'content-type', 'http', 'req', 'res', 'rfc7231' ],
+360 silly install resolved     repository: { type: 'git', url: 'https://github.com/jshttp/content-type' },
+360 silly install resolved     devDependencies: { istanbul: '0.3.5', mocha: '~1.21.5' },
+360 silly install resolved     files: [ 'LICENSE', 'HISTORY.md', 'README.md', 'index.js' ],
+360 silly install resolved     engines: { node: '>= 0.6' },
+360 silly install resolved     scripts:
+360 silly install resolved      { test: 'mocha --reporter spec --check-leaks --bail test/',
+360 silly install resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+360 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/' },
+360 silly install resolved     gitHead: '3aa58f9c5a358a3634b8601602177888b4a477d8',
+360 silly install resolved     bugs: { url: 'https://github.com/jshttp/content-type/issues' },
+360 silly install resolved     homepage: 'https://github.com/jshttp/content-type',
+360 silly install resolved     _id: 'content-type@1.0.1',
+360 silly install resolved     _shasum: 'a19d2247327dc038050ce622b7a154ec59c5e600',
+360 silly install resolved     _from: 'content-type@>=1.0.1 <1.1.0',
+360 silly install resolved     _npmVersion: '1.4.28',
+360 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+360 silly install resolved     maintainers: [ [Object] ],
+360 silly install resolved     dist:
+360 silly install resolved      { shasum: 'a19d2247327dc038050ce622b7a154ec59c5e600',
+360 silly install resolved        tarball: 'http://registry.npmjs.org/content-type/-/content-type-1.0.1.tgz' },
+360 silly install resolved     directories: {},
+360 silly install resolved     _resolved: 'https://registry.npmjs.org/content-type/-/content-type-1.0.1.tgz',
+360 silly install resolved     readme: 'ERROR: No README data found!' },
+360 silly install resolved   { name: 'depd',
+360 silly install resolved     description: 'Deprecate all the things',
+360 silly install resolved     version: '1.0.1',
+360 silly install resolved     author:
+360 silly install resolved      { name: 'Douglas Christopher Wilson',
+360 silly install resolved        email: 'doug@somethingdoug.com' },
+360 silly install resolved     license: 'MIT',
+360 silly install resolved     keywords: [ 'deprecate', 'deprecated' ],
+360 silly install resolved     repository:
+360 silly install resolved      { type: 'git',
+360 silly install resolved        url: 'https://github.com/dougwilson/nodejs-depd' },
+360 silly install resolved     devDependencies:
+360 silly install resolved      { benchmark: '1.0.0',
+360 silly install resolved        'beautify-benchmark': '0.2.4',
+360 silly install resolved        istanbul: '0.3.5',
+360 silly install resolved        mocha: '~1.21.5' },
+360 silly install resolved     files: [ 'lib/', 'History.md', 'LICENSE', 'index.js', 'Readme.md' ],
+360 silly install resolved     engines: { node: '>= 0.6' },
+360 silly install resolved     scripts:
+360 silly install resolved      { bench: 'node benchmark/index.js',
+360 silly install resolved        test: 'mocha --reporter spec --bail test/',
+360 silly install resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --no-exit test/',
+360 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/' },
+360 silly install resolved     gitHead: '769e0f8108463c35a6937a9d634ab19fee45100a',
+360 silly install resolved     bugs: { url: 'https://github.com/dougwilson/nodejs-depd/issues' },
+360 silly install resolved     homepage: 'https://github.com/dougwilson/nodejs-depd',
+360 silly install resolved     _id: 'depd@1.0.1',
+360 silly install resolved     _shasum: '80aec64c9d6d97e65cc2a9caa93c0aa6abf73aaa',
+360 silly install resolved     _from: 'depd@>=1.0.1 <1.1.0',
+360 silly install resolved     _npmVersion: '1.4.28',
+360 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+360 silly install resolved     maintainers: [ [Object] ],
+360 silly install resolved     dist:
+360 silly install resolved      { shasum: '80aec64c9d6d97e65cc2a9caa93c0aa6abf73aaa',
+360 silly install resolved        tarball: 'http://registry.npmjs.org/depd/-/depd-1.0.1.tgz' },
+360 silly install resolved     directories: {},
+360 silly install resolved     _resolved: 'https://registry.npmjs.org/depd/-/depd-1.0.1.tgz',
+360 silly install resolved     readme: 'ERROR: No README data found!' },
+360 silly install resolved   { name: 'iconv-lite',
+360 silly install resolved     description: 'Convert character encodings in pure javascript.',
+360 silly install resolved     version: '0.4.11',
+360 silly install resolved     license: 'MIT',
+360 silly install resolved     keywords: [ 'iconv', 'convert', 'charset', 'icu' ],
+360 silly install resolved     author: { name: 'Alexander Shtuchkin', email: 'ashtuchkin@gmail.com' },
+360 silly install resolved     contributors:
+360 silly install resolved      [ [Object],
+360 silly install resolved        [Object],
+360 silly install resolved        [Object],
+360 silly install resolved        [Object],
+360 silly install resolved        [Object],
+360 silly install resolved        [Object],
+360 silly install resolved        [Object],
+360 silly install resolved        [Object],
+360 silly install resolved        [Object],
+360 silly install resolved        [Object],
+360 silly install resolved        [Object],
+360 silly install resolved        [Object] ],
+360 silly install resolved     main: './lib/index.js',
+360 silly install resolved     homepage: 'https://github.com/ashtuchkin/iconv-lite',
+360 silly install resolved     bugs: { url: 'https://github.com/ashtuchkin/iconv-lite/issues' },
+360 silly install resolved     repository:
+360 silly install resolved      { type: 'git',
+360 silly install resolved        url: 'git://github.com/ashtuchkin/iconv-lite.git' },
+360 silly install resolved     engines: { node: '>=0.8.0' },
+360 silly install resolved     scripts:
+360 silly install resolved      { coverage: 'istanbul cover _mocha -- --grep .',
+360 silly install resolved        'coverage-open': 'open coverage/lcov-report/index.html',
+360 silly install resolved        test: 'mocha --reporter spec --grep .' },
+360 silly install resolved     browser: { './extend-node': false, './streams': false },
+360 silly install resolved     devDependencies:
+360 silly install resolved      { mocha: '*',
+360 silly install resolved        request: '2.47',
+360 silly install resolved        unorm: '*',
+360 silly install resolved        errto: '*',
+360 silly install resolved        async: '*',
+360 silly install resolved        istanbul: '*',
+360 silly install resolved        iconv: '2.1' },
+360 silly install resolved     gitHead: 'e285b7c31eb0406cf5a8e3e09bc16fbd2786360f',
+360 silly install resolved     _id: 'iconv-lite@0.4.11',
+360 silly install resolved     _shasum: '2ecb42fd294744922209a2e7c404dac8793d8ade',
+360 silly install resolved     _from: 'iconv-lite@0.4.11',
+360 silly install resolved     _npmVersion: '2.10.1',
+360 silly install resolved     _nodeVersion: '0.12.4',
+360 silly install resolved     _npmUser: { name: 'ashtuchkin', email: 'ashtuchkin@gmail.com' },
+360 silly install resolved     maintainers: [ [Object] ],
+360 silly install resolved     dist:
+360 silly install resolved      { shasum: '2ecb42fd294744922209a2e7c404dac8793d8ade',
+360 silly install resolved        tarball: 'http://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.11.tgz' },
+360 silly install resolved     directories: {},
+360 silly install resolved     _resolved: 'https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.11.tgz',
+360 silly install resolved     readme: 'ERROR: No README data found!' },
+360 silly install resolved   { name: 'qs',
+360 silly install resolved     version: '4.0.0',
+360 silly install resolved     description: 'A querystring parser that supports nesting and arrays, with a depth limit',
+360 silly install resolved     homepage: 'https://github.com/hapijs/qs',
+360 silly install resolved     main: 'lib/index.js',
+360 silly install resolved     dependencies: {},
+360 silly install resolved     devDependencies: { browserify: '^10.2.1', code: '1.x.x', lab: '5.x.x' },
+360 silly install resolved     scripts:
+360 silly install resolved      { test: 'lab -a code -t 100 -L',
+360 silly install resolved        'test-cov-html': 'lab -a code -r html -o coverage.html',
+360 silly install resolved        dist: 'browserify --standalone Qs lib/index.js > dist/qs.js' },
+360 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/hapijs/qs.git' },
+360 silly install resolved     keywords: [ 'querystring', 'qs' ],
+360 silly install resolved     license: 'BSD-3-Clause',
+360 silly install resolved     gitHead: 'e573dd08eae6cce30d2202704691a102dfa3782a',
+360 silly install resolved     bugs: { url: 'https://github.com/hapijs/qs/issues' },
+360 silly install resolved     _id: 'qs@4.0.0',
+360 silly install resolved     _shasum: 'c31d9b74ec27df75e543a86c78728ed8d4623607',
+360 silly install resolved     _from: 'qs@4.0.0',
+360 silly install resolved     _npmVersion: '2.12.0',
+360 silly install resolved     _nodeVersion: '0.12.4',
+360 silly install resolved     _npmUser: { name: 'nlf', email: 'quitlahok@gmail.com' },
+360 silly install resolved     dist:
+360 silly install resolved      { shasum: 'c31d9b74ec27df75e543a86c78728ed8d4623607',
+360 silly install resolved        tarball: 'http://registry.npmjs.org/qs/-/qs-4.0.0.tgz' },
+360 silly install resolved     maintainers: [ [Object], [Object] ],
+360 silly install resolved     directories: {},
+360 silly install resolved     _resolved: 'https://registry.npmjs.org/qs/-/qs-4.0.0.tgz',
+360 silly install resolved     readme: 'ERROR: No README data found!' },
+360 silly install resolved   { name: 'type-is',
+360 silly install resolved     description: 'Infer the content-type of a request.',
+360 silly install resolved     version: '1.6.4',
+360 silly install resolved     contributors: [ [Object], [Object] ],
+360 silly install resolved     license: 'MIT',
+360 silly install resolved     repository: { type: 'git', url: 'https://github.com/jshttp/type-is' },
+360 silly install resolved     dependencies: { 'media-typer': '0.3.0', 'mime-types': '~2.1.2' },
+360 silly install resolved     devDependencies: { istanbul: '0.3.17', mocha: '~1.21.5' },
+360 silly install resolved     engines: { node: '>= 0.6' },
+360 silly install resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+360 silly install resolved     scripts:
+360 silly install resolved      { test: 'mocha --reporter spec --check-leaks --bail test/',
+360 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+360 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+360 silly install resolved     keywords: [ 'content', 'type', 'checking' ],
+360 silly install resolved     gitHead: '0edac23cef38f02ded0e072af65a078865af5b66',
+360 silly install resolved     bugs: { url: 'https://github.com/jshttp/type-is/issues' },
+360 silly install resolved     homepage: 'https://github.com/jshttp/type-is',
+360 silly install resolved     _id: 'type-is@1.6.4',
+360 silly install resolved     _shasum: 'd76fe92f0bcf7b0cf16b64d095e248f71079c318',
+360 silly install resolved     _from: 'type-is@>=1.6.4 <1.7.0',
+360 silly install resolved     _npmVersion: '1.4.28',
+360 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+360 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+360 silly install resolved     dist:
+360 silly install resolved      { shasum: 'd76fe92f0bcf7b0cf16b64d095e248f71079c318',
+360 silly install resolved        tarball: 'http://registry.npmjs.org/type-is/-/type-is-1.6.4.tgz' },
+360 silly install resolved     directories: {},
+360 silly install resolved     _resolved: 'https://registry.npmjs.org/type-is/-/type-is-1.6.4.tgz',
+360 silly install resolved     readme: 'ERROR: No README data found!' },
+360 silly install resolved   { name: 'debug',
+360 silly install resolved     version: '2.2.0',
+360 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+360 silly install resolved     description: 'small debugging utility',
+360 silly install resolved     keywords: [ 'debug', 'log', 'debugger' ],
+360 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+360 silly install resolved     contributors: [ [Object] ],
+360 silly install resolved     license: 'MIT',
+360 silly install resolved     dependencies: { ms: '0.7.1' },
+360 silly install resolved     devDependencies: { browserify: '9.0.3', mocha: '*' },
+360 silly install resolved     main: './node.js',
+360 silly install resolved     browser: './browser.js',
+360 silly install resolved     component: { scripts: [Object] },
+360 silly install resolved     gitHead: 'b38458422b5aa8aa6d286b10dfe427e8a67e2b35',
+360 silly install resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+360 silly install resolved     homepage: 'https://github.com/visionmedia/debug',
+360 silly install resolved     _id: 'debug@2.2.0',
+360 silly install resolved     scripts: {},
+360 silly install resolved     _shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+360 silly install resolved     _from: 'debug@>=2.2.0 <2.3.0',
+360 silly install resolved     _npmVersion: '2.7.4',
+360 silly install resolved     _nodeVersion: '0.12.2',
+360 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+360 silly install resolved     maintainers: [ [Object], [Object] ],
+360 silly install resolved     dist:
+360 silly install resolved      { shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+360 silly install resolved        tarball: 'http://registry.npmjs.org/debug/-/debug-2.2.0.tgz' },
+360 silly install resolved     directories: {},
+360 silly install resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz',
+360 silly install resolved     readme: 'ERROR: No README data found!' },
+360 silly install resolved   { name: 'bytes',
+360 silly install resolved     description: 'Utility to parse a string bytes to bytes and vice-versa',
+360 silly install resolved     version: '2.1.0',
+360 silly install resolved     author:
+360 silly install resolved      { name: 'TJ Holowaychuk',
+360 silly install resolved        email: 'tj@vision-media.ca',
+360 silly install resolved        url: 'http://tjholowaychuk.com' },
+360 silly install resolved     contributors: [ [Object] ],
+360 silly install resolved     license: 'MIT',
+360 silly install resolved     keywords:
+360 silly install resolved      [ 'byte',
+360 silly install resolved        'bytes',
+360 silly install resolved        'utility',
+360 silly install resolved        'parse',
+360 silly install resolved        'parser',
+360 silly install resolved        'convert',
+360 silly install resolved        'converter' ],
+360 silly install resolved     repository: { type: 'git', url: 'https://github.com/visionmedia/bytes.js' },
+360 silly install resolved     component: { scripts: [Object] },
+360 silly install resolved     devDependencies: { mocha: '*' },
+360 silly install resolved     files: [ 'History.md', 'LICENSE', 'Readme.md', 'index.js' ],
+360 silly install resolved     scripts: { test: 'mocha --check-leaks --reporter spec' },
+360 silly install resolved     gitHead: '86e4520cc369b34866154a53344ca50b2bb5ddcd',
+360 silly install resolved     bugs: { url: 'https://github.com/visionmedia/bytes.js/issues' },
+360 silly install resolved     homepage: 'https://github.com/visionmedia/bytes.js',
+360 silly install resolved     _id: 'bytes@2.1.0',
+360 silly install resolved     _shasum: 'ac93c410e2ffc9cc7cf4b464b38289067f5e47b4',
+360 silly install resolved     _from: 'bytes@2.1.0',
+360 silly install resolved     _npmVersion: '1.4.28',
+360 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+360 silly install resolved     maintainers: [ [Object], [Object] ],
+360 silly install resolved     dist:
+360 silly install resolved      { shasum: 'ac93c410e2ffc9cc7cf4b464b38289067f5e47b4',
+360 silly install resolved        tarball: 'http://registry.npmjs.org/bytes/-/bytes-2.1.0.tgz' },
+360 silly install resolved     directories: {},
+360 silly install resolved     _resolved: 'https://registry.npmjs.org/bytes/-/bytes-2.1.0.tgz',
+360 silly install resolved     readme: 'ERROR: No README data found!' },
+360 silly install resolved   { name: 'http-errors',
+360 silly install resolved     description: 'Create HTTP error objects',
+360 silly install resolved     version: '1.3.1',
+360 silly install resolved     author:
+360 silly install resolved      { name: 'Jonathan Ong',
+360 silly install resolved        email: 'me@jongleberry.com',
+360 silly install resolved        url: 'http://jongleberry.com' },
+360 silly install resolved     contributors: [ [Object], [Object] ],
+360 silly install resolved     license: 'MIT',
+360 silly install resolved     repository: { type: 'git', url: 'https://github.com/jshttp/http-errors' },
+360 silly install resolved     dependencies: { inherits: '~2.0.1', statuses: '1' },
+360 silly install resolved     devDependencies: { istanbul: '0', mocha: '1' },
+360 silly install resolved     engines: { node: '>= 0.6' },
+360 silly install resolved     scripts:
+360 silly install resolved      { test: 'mocha --reporter spec --bail',
+360 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot',
+360 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot' },
+360 silly install resolved     keywords: [ 'http', 'error' ],
+360 silly install resolved     files: [ 'index.js', 'HISTORY.md', 'LICENSE', 'README.md' ],
+360 silly install resolved     gitHead: '89a8502b40d5dd42da2908f265275e2eeb8d0699',
+360 silly install resolved     bugs: { url: 'https://github.com/jshttp/http-errors/issues' },
+360 silly install resolved     homepage: 'https://github.com/jshttp/http-errors',
+360 silly install resolved     _id: 'http-errors@1.3.1',
+360 silly install resolved     _shasum: '197e22cdebd4198585e8694ef6786197b91ed942',
+360 silly install resolved     _from: 'http-errors@>=1.3.1 <1.4.0',
+360 silly install resolved     _npmVersion: '1.4.28',
+360 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+360 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+360 silly install resolved     dist:
+360 silly install resolved      { shasum: '197e22cdebd4198585e8694ef6786197b91ed942',
+360 silly install resolved        tarball: 'http://registry.npmjs.org/http-errors/-/http-errors-1.3.1.tgz' },
+360 silly install resolved     directories: {},
+360 silly install resolved     _resolved: 'https://registry.npmjs.org/http-errors/-/http-errors-1.3.1.tgz',
+360 silly install resolved     readme: 'ERROR: No README data found!' } ]
+361 info install on-finished@2.3.0 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+362 info install raw-body@2.1.2 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+363 info install content-type@1.0.1 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+364 info install depd@1.0.1 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+365 info install iconv-lite@0.4.11 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+366 info install qs@4.0.0 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+367 info install type-is@1.6.4 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+368 info install debug@2.2.0 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+369 info install bytes@2.1.0 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+370 info install http-errors@1.3.1 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+371 info installOne on-finished@2.3.0
+372 verbose installOne of on-finished to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser not in flight; installing
+373 info installOne raw-body@2.1.2
+374 verbose installOne of raw-body to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser not in flight; installing
+375 info installOne content-type@1.0.1
+376 verbose installOne of content-type to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser not in flight; installing
+377 info installOne depd@1.0.1
+378 verbose installOne of depd to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser not in flight; installing
+379 info installOne iconv-lite@0.4.11
+380 verbose installOne of iconv-lite to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser not in flight; installing
+381 info installOne qs@4.0.0
+382 verbose installOne of qs to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser not in flight; installing
+383 info installOne type-is@1.6.4
+384 verbose installOne of type-is to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser not in flight; installing
+385 info installOne debug@2.2.0
+386 verbose installOne of debug to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser not in flight; installing
+387 info installOne bytes@2.1.0
+388 verbose installOne of bytes to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser not in flight; installing
+389 info installOne http-errors@1.3.1
+390 verbose installOne of http-errors to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser not in flight; installing
+391 verbose lock using /Users/newscred/.npm/_locks/content-type-c52b0bd434e791e9.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/content-type
+392 verbose lock using /Users/newscred/.npm/_locks/raw-body-d0af72f6790f88e6.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body
+393 verbose lock using /Users/newscred/.npm/_locks/on-finished-830749dc55448559.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished
+394 verbose lock using /Users/newscred/.npm/_locks/depd-681439ab6bb0c107.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/depd
+395 verbose lock using /Users/newscred/.npm/_locks/qs-73ab4f6859e40de4.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/qs
+396 verbose lock using /Users/newscred/.npm/_locks/iconv-lite-ef29e4c172d5b486.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/iconv-lite
+397 verbose lock using /Users/newscred/.npm/_locks/bytes-8d8b3e5c64c1d1dc.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/bytes
+398 silly install write writing content-type 1.0.1 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/content-type
+399 silly cache addNamed cb content-type@1.0.1
+400 verbose unbuild node_modules/body-parser/node_modules/content-type
+401 silly install write writing raw-body 2.1.2 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body
+402 silly cache addNamed cb raw-body@2.1.2
+403 verbose unbuild node_modules/body-parser/node_modules/raw-body
+404 silly install write writing on-finished 2.3.0 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished
+405 silly cache addNamed cb on-finished@2.3.0
+406 verbose unbuild node_modules/body-parser/node_modules/on-finished
+407 silly install write writing depd 1.0.1 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/depd
+408 silly cache addNamed cb depd@1.0.1
+409 verbose unbuild node_modules/body-parser/node_modules/depd
+410 silly install write writing qs 4.0.0 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/qs
+411 silly cache addNamed cb qs@4.0.0
+412 verbose unbuild node_modules/body-parser/node_modules/qs
+413 silly install write writing iconv-lite 0.4.11 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/iconv-lite
+414 silly cache addNamed cb iconv-lite@0.4.11
+415 verbose unbuild node_modules/body-parser/node_modules/iconv-lite
+416 silly install write writing bytes 2.1.0 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/bytes
+417 silly cache addNamed cb bytes@2.1.0
+418 verbose unbuild node_modules/body-parser/node_modules/bytes
+419 verbose lock using /Users/newscred/.npm/_locks/type-is-35a2c88e4aa74031.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is
+420 verbose lock using /Users/newscred/.npm/_locks/debug-72cfb6b98285e448.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug
+421 verbose lock using /Users/newscred/.npm/_locks/http-errors-4ef5387e75be84e6.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors
+422 silly install write writing type-is 1.6.4 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is
+423 silly cache addNamed cb type-is@1.6.4
+424 verbose unbuild node_modules/body-parser/node_modules/type-is
+425 silly install write writing debug 2.2.0 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug
+426 silly cache addNamed cb debug@2.2.0
+427 verbose unbuild node_modules/body-parser/node_modules/debug
+428 silly install write writing http-errors 1.3.1 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors
+429 silly cache addNamed cb http-errors@1.3.1
+430 verbose unbuild node_modules/body-parser/node_modules/http-errors
+431 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/content-type
+432 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body
+433 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished
+434 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/depd
+435 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/qs
+436 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/iconv-lite
+437 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/bytes
+438 verbose tar unpack /Users/newscred/.npm/content-type/1.0.1/package.tgz
+439 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/content-type
+440 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/content-type
+441 verbose tar unpack /Users/newscred/.npm/raw-body/2.1.2/package.tgz
+442 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body
+443 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body
+444 verbose tar unpack /Users/newscred/.npm/on-finished/2.3.0/package.tgz
+445 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished
+446 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished
+447 verbose tar unpack /Users/newscred/.npm/depd/1.0.1/package.tgz
+448 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/depd
+449 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/depd
+450 verbose tar unpack /Users/newscred/.npm/qs/4.0.0/package.tgz
+451 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/qs
+452 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/qs
+453 verbose tar unpack /Users/newscred/.npm/iconv-lite/0.4.11/package.tgz
+454 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/iconv-lite
+455 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/iconv-lite
+456 verbose tar unpack /Users/newscred/.npm/bytes/2.1.0/package.tgz
+457 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/bytes
+458 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/bytes
+459 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is
+460 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug
+461 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors
+462 silly gunzTarPerm modes [ '755', '644' ]
+463 silly gunzTarPerm modes [ '755', '644' ]
+464 silly gunzTarPerm modes [ '755', '644' ]
+465 silly gunzTarPerm modes [ '755', '644' ]
+466 silly gunzTarPerm modes [ '755', '644' ]
+467 silly gunzTarPerm modes [ '755', '644' ]
+468 silly gunzTarPerm modes [ '755', '644' ]
+469 verbose tar unpack /Users/newscred/.npm/type-is/1.6.4/package.tgz
+470 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is
+471 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is
+472 verbose tar unpack /Users/newscred/.npm/debug/2.2.0/package.tgz
+473 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug
+474 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug
+475 verbose tar unpack /Users/newscred/.npm/http-errors/1.3.1/package.tgz
+476 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors
+477 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors
+478 silly gunzTarPerm modes [ '755', '644' ]
+479 silly gunzTarPerm modes [ '755', '644' ]
+480 silly gunzTarPerm modes [ '755', '644' ]
+481 silly gunzTarPerm extractEntry package.json
+482 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+483 silly gunzTarPerm extractEntry package.json
+484 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+485 silly gunzTarPerm extractEntry package.json
+486 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+487 silly gunzTarPerm extractEntry package.json
+488 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+489 silly gunzTarPerm extractEntry package.json
+490 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+491 silly gunzTarPerm extractEntry package.json
+492 silly gunzTarPerm extractEntry package.json
+493 silly gunzTarPerm extractEntry package.json
+494 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+495 silly gunzTarPerm extractEntry package.json
+496 silly gunzTarPerm extractEntry package.json
+497 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+498 silly gunzTarPerm extractEntry README.md
+499 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+500 silly gunzTarPerm extractEntry LICENSE
+501 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+502 silly gunzTarPerm extractEntry README.md
+503 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+504 silly gunzTarPerm extractEntry LICENSE
+505 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+506 silly gunzTarPerm extractEntry LICENSE
+507 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+508 silly gunzTarPerm extractEntry index.js
+509 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+510 silly gunzTarPerm extractEntry index.js
+511 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+512 silly gunzTarPerm extractEntry History.md
+513 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+514 silly gunzTarPerm extractEntry README.md
+515 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+516 silly gunzTarPerm extractEntry LICENSE
+517 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+518 silly gunzTarPerm extractEntry .npmignore
+519 silly gunzTarPerm extractEntry README.md
+520 silly gunzTarPerm extractEntry .npmignore
+521 silly gunzTarPerm extractEntry README.md
+522 silly gunzTarPerm extractEntry README.md
+523 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+524 silly gunzTarPerm extractEntry LICENSE
+525 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+526 silly gunzTarPerm extractEntry .npmignore
+527 silly gunzTarPerm extractEntry node.js
+528 silly gunzTarPerm extractEntry README.md
+529 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+530 silly gunzTarPerm extractEntry LICENSE
+531 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+532 silly gunzTarPerm extractEntry index.js
+533 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+534 silly gunzTarPerm extractEntry HISTORY.md
+535 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+536 silly gunzTarPerm extractEntry index.js
+537 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+538 silly gunzTarPerm extractEntry HISTORY.md
+539 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+540 silly gunzTarPerm extractEntry History.md
+541 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+542 silly gunzTarPerm extractEntry Readme.md
+543 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+544 silly gunzTarPerm extractEntry lib/compat/buffer-concat.js
+545 silly gunzTarPerm modified mode [ 'lib/compat/buffer-concat.js', 438, 420 ]
+546 silly gunzTarPerm extractEntry lib/compat/callsite-tostring.js
+547 silly gunzTarPerm modified mode [ 'lib/compat/callsite-tostring.js', 438, 420 ]
+548 silly gunzTarPerm extractEntry lib/compat/index.js
+549 silly gunzTarPerm modified mode [ 'lib/compat/index.js', 438, 420 ]
+550 silly gunzTarPerm extractEntry Readme.md
+551 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+552 silly gunzTarPerm extractEntry LICENSE
+553 silly gunzTarPerm extractEntry CHANGELOG.md
+554 silly gunzTarPerm extractEntry index.js
+555 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+556 silly gunzTarPerm extractEntry HISTORY.md
+557 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+558 silly gunzTarPerm extractEntry debug.js
+559 silly gunzTarPerm extractEntry browser.js
+560 silly gunzTarPerm extractEntry index.js
+561 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+562 silly gunzTarPerm extractEntry HISTORY.md
+563 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+564 silly gunzTarPerm extractEntry index.js
+565 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+566 silly gunzTarPerm extractEntry HISTORY.md
+567 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+568 silly gunzTarPerm extractEntry LICENSE
+569 silly gunzTarPerm extractEntry encodings/dbcs-codec.js
+570 silly gunzTarPerm extractEntry CONTRIBUTING.md
+571 silly gunzTarPerm extractEntry Readme.md
+572 silly gunzTarPerm extractEntry encodings/dbcs-data.js
+573 silly gunzTarPerm extractEntry bower.json
+574 silly gunzTarPerm extractEntry .jshintrc
+575 silly gunzTarPerm extractEntry encodings/index.js
+576 silly gunzTarPerm extractEntry encodings/internal.js
+577 silly gunzTarPerm extractEntry .eslintignore
+578 silly gunzTarPerm extractEntry bower.json
+579 silly gunzTarPerm extractEntry encodings/sbcs-codec.js
+580 silly gunzTarPerm extractEntry encodings/sbcs-data-generated.js
+581 silly gunzTarPerm extractEntry encodings/sbcs-data.js
+582 silly gunzTarPerm extractEntry component.json
+583 silly gunzTarPerm extractEntry Makefile
+584 silly gunzTarPerm extractEntry lib/index.js
+585 silly gunzTarPerm extractEntry lib/parse.js
+586 info preinstall bytes@2.1.0
+587 silly install resolved []
+588 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/bytes
+589 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/bytes
+590 verbose linkStuff [ false,
+590 verbose linkStuff   false,
+590 verbose linkStuff   false,
+590 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules' ]
+591 info linkStuff bytes@2.1.0
+592 verbose linkBins bytes@2.1.0
+593 verbose linkMans bytes@2.1.0
+594 verbose rebuildBundles bytes@2.1.0
+595 info install bytes@2.1.0
+596 info postinstall bytes@2.1.0
+597 verbose unlock done using /Users/newscred/.npm/_locks/bytes-8d8b3e5c64c1d1dc.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/bytes
+598 info preinstall http-errors@1.3.1
+599 silly gunzTarPerm extractEntry History.md
+600 info preinstall content-type@1.0.1
+601 silly prepareForInstallMany adding inherits@~2.0.1 from http-errors dependencies
+602 silly prepareForInstallMany adding statuses@1 from http-errors dependencies
+603 silly cache add args [ 'inherits@~2.0.1', null ]
+604 verbose cache add spec inherits@~2.0.1
+605 silly cache add args [ 'statuses@1', null ]
+606 verbose cache add spec statuses@1
+607 silly cache add parsed spec { raw: 'inherits@~2.0.1',
+607 silly cache add   scope: null,
+607 silly cache add   name: 'inherits',
+607 silly cache add   rawSpec: '~2.0.1',
+607 silly cache add   spec: '>=2.0.1 <2.1.0',
+607 silly cache add   type: 'range' }
+608 verbose addNamed inherits@>=2.0.1 <2.1.0
+609 silly addNamed semver.valid null
+610 silly addNamed semver.validRange >=2.0.1 <2.1.0
+611 silly addNameRange { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: false }
+612 silly mapToRegistry name inherits
+613 silly mapToRegistry using default registry
+614 silly mapToRegistry registry https://registry.npmjs.org/
+615 silly mapToRegistry uri https://registry.npmjs.org/inherits
+616 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
+617 silly cache add parsed spec { raw: 'statuses@1',
+617 silly cache add   scope: null,
+617 silly cache add   name: 'statuses',
+617 silly cache add   rawSpec: '1',
+617 silly cache add   spec: '>=1.0.0 <2.0.0',
+617 silly cache add   type: 'range' }
+618 verbose addNamed statuses@>=1.0.0 <2.0.0
+619 silly addNamed semver.valid null
+620 silly addNamed semver.validRange >=1.0.0 <2.0.0
+621 silly addNameRange { name: 'statuses', range: '>=1.0.0 <2.0.0', hasData: false }
+622 silly mapToRegistry name statuses
+623 silly mapToRegistry using default registry
+624 silly mapToRegistry registry https://registry.npmjs.org/
+625 silly mapToRegistry uri https://registry.npmjs.org/statuses
+626 verbose addNameRange registry:https://registry.npmjs.org/statuses not in flight; fetching
+627 silly gunzTarPerm extractEntry lib/stringify.js
+628 silly gunzTarPerm extractEntry lib/utils.js
+629 info preinstall on-finished@2.3.0
+630 silly install resolved []
+631 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/content-type
+632 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/content-type
+633 verbose linkStuff [ false,
+633 verbose linkStuff   false,
+633 verbose linkStuff   false,
+633 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules' ]
+634 info linkStuff content-type@1.0.1
+635 verbose linkBins content-type@1.0.1
+636 verbose linkMans content-type@1.0.1
+637 verbose rebuildBundles content-type@1.0.1
+638 info install content-type@1.0.1
+639 silly prepareForInstallMany adding ee-first@1.1.1 from on-finished dependencies
+640 info postinstall content-type@1.0.1
+641 info preinstall type-is@1.6.4
+642 verbose request uri https://registry.npmjs.org/inherits
+643 verbose request no auth needed
+644 info attempt registry request try #1 at 09:46:01
+645 verbose etag "DPT0HCFHSA8NG4H8MNHKEH1FI"
+646 http request GET https://registry.npmjs.org/inherits
+647 verbose request uri https://registry.npmjs.org/statuses
+648 verbose request no auth needed
+649 info attempt registry request try #1 at 09:46:01
+650 verbose etag "DBWZSA8GI6L8CNTRFYQ7KFMMA"
+651 http request GET https://registry.npmjs.org/statuses
+652 silly cache add args [ 'ee-first@1.1.1', null ]
+653 verbose cache add spec ee-first@1.1.1
+654 silly cache add parsed spec { raw: 'ee-first@1.1.1',
+654 silly cache add   scope: null,
+654 silly cache add   name: 'ee-first',
+654 silly cache add   rawSpec: '1.1.1',
+654 silly cache add   spec: '1.1.1',
+654 silly cache add   type: 'version' }
+655 verbose addNamed ee-first@1.1.1
+656 silly addNamed semver.valid 1.1.1
+657 silly addNamed semver.validRange 1.1.1
+658 silly mapToRegistry name ee-first
+659 silly mapToRegistry using default registry
+660 silly mapToRegistry registry https://registry.npmjs.org/
+661 silly mapToRegistry uri https://registry.npmjs.org/ee-first
+662 verbose addNameVersion registry:https://registry.npmjs.org/ee-first not in flight; fetching
+663 verbose unlock done using /Users/newscred/.npm/_locks/content-type-c52b0bd434e791e9.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/content-type
+664 silly prepareForInstallMany adding media-typer@0.3.0 from type-is dependencies
+665 silly prepareForInstallMany adding mime-types@~2.1.2 from type-is dependencies
+666 silly gunzTarPerm extractEntry .travis.yml
+667 silly gunzTarPerm extractEntry test/parse.js
+668 info preinstall raw-body@2.1.2
+669 silly cache add args [ 'media-typer@0.3.0', null ]
+670 verbose cache add spec media-typer@0.3.0
+671 silly cache add args [ 'mime-types@~2.1.2', null ]
+672 verbose cache add spec mime-types@~2.1.2
+673 silly cache add parsed spec { raw: 'media-typer@0.3.0',
+673 silly cache add   scope: null,
+673 silly cache add   name: 'media-typer',
+673 silly cache add   rawSpec: '0.3.0',
+673 silly cache add   spec: '0.3.0',
+673 silly cache add   type: 'version' }
+674 verbose addNamed media-typer@0.3.0
+675 silly addNamed semver.valid 0.3.0
+676 silly addNamed semver.validRange 0.3.0
+677 silly mapToRegistry name media-typer
+678 silly mapToRegistry using default registry
+679 silly mapToRegistry registry https://registry.npmjs.org/
+680 silly mapToRegistry uri https://registry.npmjs.org/media-typer
+681 verbose addNameVersion registry:https://registry.npmjs.org/media-typer not in flight; fetching
+682 silly cache add parsed spec { raw: 'mime-types@~2.1.2',
+682 silly cache add   scope: null,
+682 silly cache add   name: 'mime-types',
+682 silly cache add   rawSpec: '~2.1.2',
+682 silly cache add   spec: '>=2.1.2 <2.2.0',
+682 silly cache add   type: 'range' }
+683 verbose addNamed mime-types@>=2.1.2 <2.2.0
+684 silly addNamed semver.valid null
+685 silly addNamed semver.validRange >=2.1.2 <2.2.0
+686 silly addNameRange { name: 'mime-types', range: '>=2.1.2 <2.2.0', hasData: false }
+687 silly mapToRegistry name mime-types
+688 silly mapToRegistry using default registry
+689 silly mapToRegistry registry https://registry.npmjs.org/
+690 silly mapToRegistry uri https://registry.npmjs.org/mime-types
+691 verbose addNameRange registry:https://registry.npmjs.org/mime-types not in flight; fetching
+692 silly gunzTarPerm extractEntry encodings/utf16.js
+693 verbose request uri https://registry.npmjs.org/ee-first
+694 verbose request no auth needed
+695 info attempt registry request try #1 at 09:46:01
+696 verbose etag "28AY4PMFXJHG8YALE6QZHIRHL"
+697 http request GET https://registry.npmjs.org/ee-first
+698 silly prepareForInstallMany adding unpipe@1.0.0 from raw-body dependencies
+699 verbose request uri https://registry.npmjs.org/media-typer
+700 verbose request no auth needed
+701 info attempt registry request try #1 at 09:46:01
+702 verbose etag "EBBA17SMBE80K6FCTCN6G8KK3"
+703 http request GET https://registry.npmjs.org/media-typer
+704 verbose request uri https://registry.npmjs.org/mime-types
+705 verbose request no auth needed
+706 info attempt registry request try #1 at 09:46:01
+707 verbose etag "EH2JK6VW4UP33FA8W24EKYNIJ"
+708 http request GET https://registry.npmjs.org/mime-types
+709 silly cache add args [ 'unpipe@1.0.0', null ]
+710 verbose cache add spec unpipe@1.0.0
+711 silly cache add parsed spec { raw: 'unpipe@1.0.0',
+711 silly cache add   scope: null,
+711 silly cache add   name: 'unpipe',
+711 silly cache add   rawSpec: '1.0.0',
+711 silly cache add   spec: '1.0.0',
+711 silly cache add   type: 'version' }
+712 verbose addNamed unpipe@1.0.0
+713 silly addNamed semver.valid 1.0.0
+714 silly addNamed semver.validRange 1.0.0
+715 silly mapToRegistry name unpipe
+716 silly mapToRegistry using default registry
+717 silly mapToRegistry registry https://registry.npmjs.org/
+718 silly mapToRegistry uri https://registry.npmjs.org/unpipe
+719 verbose addNameVersion registry:https://registry.npmjs.org/unpipe not in flight; fetching
+720 silly gunzTarPerm extractEntry test/stringify.js
+721 silly gunzTarPerm extractEntry test/utils.js
+722 verbose request uri https://registry.npmjs.org/unpipe
+723 verbose request no auth needed
+724 info attempt registry request try #1 at 09:46:01
+725 verbose etag "CUYWL81QRNALZ6DFGKEASW9Q0"
+726 http request GET https://registry.npmjs.org/unpipe
+727 silly gunzTarPerm extractEntry encodings/utf7.js
+728 silly gunzTarPerm extractEntry encodings/tables/big5-added.json
+729 silly gunzTarPerm extractEntry encodings/tables/cp936.json
+730 silly gunzTarPerm extractEntry encodings/tables/cp949.json
+731 info preinstall depd@1.0.1
+732 silly gunzTarPerm extractEntry encodings/tables/cp950.json
+733 silly gunzTarPerm extractEntry encodings/tables/eucjp.json
+734 silly install resolved []
+735 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/depd
+736 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/depd
+737 verbose linkStuff [ false,
+737 verbose linkStuff   false,
+737 verbose linkStuff   false,
+737 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules' ]
+738 info linkStuff depd@1.0.1
+739 verbose linkBins depd@1.0.1
+740 verbose linkMans depd@1.0.1
+741 verbose rebuildBundles depd@1.0.1
+742 info install depd@1.0.1
+743 info postinstall depd@1.0.1
+744 verbose unlock done using /Users/newscred/.npm/_locks/depd-681439ab6bb0c107.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/depd
+745 silly gunzTarPerm extractEntry encodings/tables/gb18030-ranges.json
+746 info preinstall debug@2.2.0
+747 silly prepareForInstallMany adding ms@0.7.1 from debug dependencies
+748 silly cache add args [ 'ms@0.7.1', null ]
+749 verbose cache add spec ms@0.7.1
+750 silly cache add parsed spec { raw: 'ms@0.7.1',
+750 silly cache add   scope: null,
+750 silly cache add   name: 'ms',
+750 silly cache add   rawSpec: '0.7.1',
+750 silly cache add   spec: '0.7.1',
+750 silly cache add   type: 'version' }
+751 verbose addNamed ms@0.7.1
+752 silly addNamed semver.valid 0.7.1
+753 silly addNamed semver.validRange 0.7.1
+754 silly mapToRegistry name ms
+755 silly mapToRegistry using default registry
+756 silly mapToRegistry registry https://registry.npmjs.org/
+757 silly mapToRegistry uri https://registry.npmjs.org/ms
+758 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+759 silly gunzTarPerm extractEntry encodings/tables/gbk-added.json
+760 silly gunzTarPerm extractEntry encodings/tables/shiftjis.json
+761 silly gunzTarPerm extractEntry .travis.yml
+762 verbose request uri https://registry.npmjs.org/ms
+763 verbose request no auth needed
+764 info attempt registry request try #1 at 09:46:01
+765 verbose etag "53ANWMC7TJMGDP9CKLFDTWNRR"
+766 http request GET https://registry.npmjs.org/ms
+767 silly gunzTarPerm extractEntry lib/bom-handling.js
+768 silly gunzTarPerm extractEntry lib/extend-node.js
+769 silly gunzTarPerm extractEntry lib/index.js
+770 silly gunzTarPerm extractEntry lib/streams.js
+771 silly gunzTarPerm extractEntry Changelog.md
+772 info preinstall qs@4.0.0
+773 silly install resolved []
+774 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/qs
+775 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/qs
+776 verbose linkStuff [ false,
+776 verbose linkStuff   false,
+776 verbose linkStuff   false,
+776 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules' ]
+777 info linkStuff qs@4.0.0
+778 verbose linkBins qs@4.0.0
+779 verbose linkMans qs@4.0.0
+780 verbose rebuildBundles qs@4.0.0
+781 info install qs@4.0.0
+782 info postinstall qs@4.0.0
+783 verbose unlock done using /Users/newscred/.npm/_locks/qs-73ab4f6859e40de4.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/qs
+784 info preinstall iconv-lite@0.4.11
+785 silly install resolved []
+786 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/iconv-lite
+787 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/iconv-lite
+788 verbose linkStuff [ false,
+788 verbose linkStuff   false,
+788 verbose linkStuff   false,
+788 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules' ]
+789 info linkStuff iconv-lite@0.4.11
+790 verbose linkBins iconv-lite@0.4.11
+791 verbose linkMans iconv-lite@0.4.11
+792 verbose rebuildBundles iconv-lite@0.4.11
+793 info install iconv-lite@0.4.11
+794 info postinstall iconv-lite@0.4.11
+795 verbose unlock done using /Users/newscred/.npm/_locks/iconv-lite-ef29e4c172d5b486.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/iconv-lite
+796 http 304 https://registry.npmjs.org/media-typer
+797 silly get cb [ 304,
+797 silly get   { date: 'Thu, 09 Jul 2015 03:46:03 GMT',
+797 silly get     via: '1.1 varnish',
+797 silly get     'cache-control': 'max-age=60',
+797 silly get     etag: '"EBBA17SMBE80K6FCTCN6G8KK3"',
+797 silly get     age: '36',
+797 silly get     connection: 'keep-alive',
+797 silly get     'x-served-by': 'cache-ams4144-AMS',
+797 silly get     'x-cache': 'HIT',
+797 silly get     'x-cache-hits': '1',
+797 silly get     'x-timer': 'S1436413563.271206,VS0,VE0',
+797 silly get     vary: 'Accept' } ]
+798 verbose etag https://registry.npmjs.org/media-typer from cache
+799 verbose get saving media-typer to /Users/newscred/.npm/registry.npmjs.org/media-typer/.cache.json
+800 http 304 https://registry.npmjs.org/inherits
+801 silly get cb [ 304,
+801 silly get   { date: 'Thu, 09 Jul 2015 03:46:03 GMT',
+801 silly get     via: '1.1 varnish',
+801 silly get     'cache-control': 'max-age=60',
+801 silly get     etag: '"DPT0HCFHSA8NG4H8MNHKEH1FI"',
+801 silly get     age: '22',
+801 silly get     connection: 'keep-alive',
+801 silly get     'x-served-by': 'cache-ams4130-AMS',
+801 silly get     'x-cache': 'HIT',
+801 silly get     'x-cache-hits': '1',
+801 silly get     'x-timer': 'S1436413563.269825,VS0,VE0',
+801 silly get     vary: 'Accept' } ]
+802 verbose etag https://registry.npmjs.org/inherits from cache
+803 verbose get saving inherits to /Users/newscred/.npm/registry.npmjs.org/inherits/.cache.json
+804 http 304 https://registry.npmjs.org/statuses
+805 silly get cb [ 304,
+805 silly get   { date: 'Thu, 09 Jul 2015 03:46:03 GMT',
+805 silly get     via: '1.1 varnish',
+805 silly get     'cache-control': 'max-age=60',
+805 silly get     etag: '"DBWZSA8GI6L8CNTRFYQ7KFMMA"',
+805 silly get     age: '36',
+805 silly get     connection: 'keep-alive',
+805 silly get     'x-served-by': 'cache-ams4123-AMS',
+805 silly get     'x-cache': 'HIT',
+805 silly get     'x-cache-hits': '1',
+805 silly get     'x-timer': 'S1436413563.274827,VS0,VE0',
+805 silly get     vary: 'Accept' } ]
+806 verbose etag https://registry.npmjs.org/statuses from cache
+807 verbose get saving statuses to /Users/newscred/.npm/registry.npmjs.org/statuses/.cache.json
+808 http 304 https://registry.npmjs.org/ee-first
+809 silly get cb [ 304,
+809 silly get   { date: 'Thu, 09 Jul 2015 03:46:03 GMT',
+809 silly get     via: '1.1 varnish',
+809 silly get     'cache-control': 'max-age=60',
+809 silly get     etag: '"28AY4PMFXJHG8YALE6QZHIRHL"',
+809 silly get     age: '36',
+809 silly get     connection: 'keep-alive',
+809 silly get     'x-served-by': 'cache-ams4139-AMS',
+809 silly get     'x-cache': 'HIT',
+809 silly get     'x-cache-hits': '1',
+809 silly get     'x-timer': 'S1436413563.275906,VS0,VE0',
+809 silly get     vary: 'Accept' } ]
+810 verbose etag https://registry.npmjs.org/ee-first from cache
+811 verbose get saving ee-first to /Users/newscred/.npm/registry.npmjs.org/ee-first/.cache.json
+812 http 304 https://registry.npmjs.org/unpipe
+813 silly get cb [ 304,
+813 silly get   { date: 'Thu, 09 Jul 2015 03:46:03 GMT',
+813 silly get     via: '1.1 varnish',
+813 silly get     'cache-control': 'max-age=60',
+813 silly get     etag: '"CUYWL81QRNALZ6DFGKEASW9Q0"',
+813 silly get     age: '36',
+813 silly get     connection: 'keep-alive',
+813 silly get     'x-served-by': 'cache-ams4132-AMS',
+813 silly get     'x-cache': 'HIT',
+813 silly get     'x-cache-hits': '1',
+813 silly get     'x-timer': 'S1436413563.279210,VS0,VE0',
+813 silly get     vary: 'Accept' } ]
+814 verbose etag https://registry.npmjs.org/unpipe from cache
+815 verbose get saving unpipe to /Users/newscred/.npm/registry.npmjs.org/unpipe/.cache.json
+816 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: true }
+817 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1' ] ]
+818 verbose addNamed inherits@2.0.1
+819 silly addNamed semver.valid 2.0.1
+820 silly addNamed semver.validRange 2.0.1
+821 silly addNameRange number 2 { name: 'statuses', range: '>=1.0.0 <2.0.0', hasData: true }
+822 silly addNameRange versions [ 'statuses',
+822 silly addNameRange   [ '1.0.1',
+822 silly addNameRange     '1.0.2',
+822 silly addNameRange     '1.0.3',
+822 silly addNameRange     '1.0.4',
+822 silly addNameRange     '1.1.0',
+822 silly addNameRange     '1.1.1',
+822 silly addNameRange     '1.2.0',
+822 silly addNameRange     '1.2.1' ] ]
+823 verbose addNamed statuses@1.2.1
+824 silly addNamed semver.valid 1.2.1
+825 silly addNamed semver.validRange 1.2.1
+826 silly cache afterAdd inherits@2.0.1
+827 verbose afterAdd /Users/newscred/.npm/inherits/2.0.1/package/package.json not in flight; writing
+828 silly cache afterAdd media-typer@0.3.0
+829 verbose afterAdd /Users/newscred/.npm/media-typer/0.3.0/package/package.json not in flight; writing
+830 verbose afterAdd /Users/newscred/.npm/inherits/2.0.1/package/package.json written
+831 verbose afterAdd /Users/newscred/.npm/media-typer/0.3.0/package/package.json written
+832 silly cache afterAdd statuses@1.2.1
+833 verbose afterAdd /Users/newscred/.npm/statuses/1.2.1/package/package.json not in flight; writing
+834 silly cache afterAdd ee-first@1.1.1
+835 verbose afterAdd /Users/newscred/.npm/ee-first/1.1.1/package/package.json not in flight; writing
+836 silly cache afterAdd unpipe@1.0.0
+837 verbose afterAdd /Users/newscred/.npm/unpipe/1.0.0/package/package.json not in flight; writing
+838 verbose afterAdd /Users/newscred/.npm/ee-first/1.1.1/package/package.json written
+839 silly install resolved [ { name: 'ee-first',
+839 silly install resolved     description: 'return the first event in a set of ee/event pairs',
+839 silly install resolved     version: '1.1.1',
+839 silly install resolved     author:
+839 silly install resolved      { name: 'Jonathan Ong',
+839 silly install resolved        email: 'me@jongleberry.com',
+839 silly install resolved        url: 'http://jongleberry.com' },
+839 silly install resolved     contributors: [ [Object] ],
+839 silly install resolved     license: 'MIT',
+839 silly install resolved     repository: { type: 'git', url: 'https://github.com/jonathanong/ee-first' },
+839 silly install resolved     devDependencies: { istanbul: '0.3.9', mocha: '2.2.5' },
+839 silly install resolved     files: [ 'index.js', 'LICENSE' ],
+839 silly install resolved     scripts:
+839 silly install resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+839 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+839 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+839 silly install resolved     gitHead: '512e0ce4cc3643f603708f965a97b61b1a9c0441',
+839 silly install resolved     bugs: { url: 'https://github.com/jonathanong/ee-first/issues' },
+839 silly install resolved     homepage: 'https://github.com/jonathanong/ee-first',
+839 silly install resolved     _id: 'ee-first@1.1.1',
+839 silly install resolved     _shasum: '590c61156b0ae2f4f0255732a158b266bc56b21d',
+839 silly install resolved     _from: 'ee-first@1.1.1',
+839 silly install resolved     _npmVersion: '1.4.28',
+839 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+839 silly install resolved     maintainers: [ [Object], [Object] ],
+839 silly install resolved     dist:
+839 silly install resolved      { shasum: '590c61156b0ae2f4f0255732a158b266bc56b21d',
+839 silly install resolved        tarball: 'http://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz' },
+839 silly install resolved     directories: {},
+839 silly install resolved     _resolved: 'https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz',
+839 silly install resolved     readme: 'ERROR: No README data found!' } ]
+840 info install ee-first@1.1.1 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished
+841 info installOne ee-first@1.1.1
+842 verbose installOne of ee-first to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished not in flight; installing
+843 verbose afterAdd /Users/newscred/.npm/unpipe/1.0.0/package/package.json written
+844 silly install resolved [ { name: 'unpipe',
+844 silly install resolved     description: 'Unpipe a stream from all destinations',
+844 silly install resolved     version: '1.0.0',
+844 silly install resolved     author:
+844 silly install resolved      { name: 'Douglas Christopher Wilson',
+844 silly install resolved        email: 'doug@somethingdoug.com' },
+844 silly install resolved     license: 'MIT',
+844 silly install resolved     repository: { type: 'git', url: 'https://github.com/stream-utils/unpipe' },
+844 silly install resolved     devDependencies:
+844 silly install resolved      { istanbul: '0.3.15',
+844 silly install resolved        mocha: '2.2.5',
+844 silly install resolved        'readable-stream': '1.1.13' },
+844 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'README.md', 'index.js' ],
+844 silly install resolved     engines: { node: '>= 0.8' },
+844 silly install resolved     scripts:
+844 silly install resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+844 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+844 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+844 silly install resolved     gitHead: 'd2df901c06487430e78dca62b6edb8bb2fc5e99d',
+844 silly install resolved     bugs: { url: 'https://github.com/stream-utils/unpipe/issues' },
+844 silly install resolved     homepage: 'https://github.com/stream-utils/unpipe',
+844 silly install resolved     _id: 'unpipe@1.0.0',
+844 silly install resolved     _shasum: 'b2bf4ee8514aae6165b4817829d21b2ef49904ec',
+844 silly install resolved     _from: 'unpipe@1.0.0',
+844 silly install resolved     _npmVersion: '1.4.28',
+844 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+844 silly install resolved     maintainers: [ [Object] ],
+844 silly install resolved     dist:
+844 silly install resolved      { shasum: 'b2bf4ee8514aae6165b4817829d21b2ef49904ec',
+844 silly install resolved        tarball: 'http://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz' },
+844 silly install resolved     directories: {},
+844 silly install resolved     _resolved: 'https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz',
+844 silly install resolved     readme: 'ERROR: No README data found!' } ]
+845 info install unpipe@1.0.0 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body
+846 info installOne unpipe@1.0.0
+847 verbose installOne of unpipe to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body not in flight; installing
+848 verbose afterAdd /Users/newscred/.npm/statuses/1.2.1/package/package.json written
+849 silly install resolved [ { name: 'inherits',
+849 silly install resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+849 silly install resolved     version: '2.0.1',
+849 silly install resolved     keywords:
+849 silly install resolved      [ 'inheritance',
+849 silly install resolved        'class',
+849 silly install resolved        'klass',
+849 silly install resolved        'oop',
+849 silly install resolved        'object-oriented',
+849 silly install resolved        'inherits',
+849 silly install resolved        'browser',
+849 silly install resolved        'browserify' ],
+849 silly install resolved     main: './inherits.js',
+849 silly install resolved     browser: './inherits_browser.js',
+849 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits' },
+849 silly install resolved     license: 'ISC',
+849 silly install resolved     scripts: { test: 'node test' },
+849 silly install resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+849 silly install resolved     _id: 'inherits@2.0.1',
+849 silly install resolved     dist:
+849 silly install resolved      { shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+849 silly install resolved        tarball: 'http://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz' },
+849 silly install resolved     _from: 'inherits@>=2.0.1 <2.1.0',
+849 silly install resolved     _npmVersion: '1.3.8',
+849 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+849 silly install resolved     maintainers: [ [Object] ],
+849 silly install resolved     directories: {},
+849 silly install resolved     _shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+849 silly install resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz',
+849 silly install resolved     readme: 'ERROR: No README data found!',
+849 silly install resolved     homepage: 'https://github.com/isaacs/inherits' },
+849 silly install resolved   { name: 'statuses',
+849 silly install resolved     description: 'HTTP status utility',
+849 silly install resolved     version: '1.2.1',
+849 silly install resolved     author:
+849 silly install resolved      { name: 'Jonathan Ong',
+849 silly install resolved        email: 'me@jongleberry.com',
+849 silly install resolved        url: 'http://jongleberry.com' },
+849 silly install resolved     repository: { type: 'git', url: 'https://github.com/jshttp/statuses' },
+849 silly install resolved     license: 'MIT',
+849 silly install resolved     keywords: [ 'http', 'status', 'code' ],
+849 silly install resolved     files: [ 'index.js', 'codes.json', 'LICENSE' ],
+849 silly install resolved     devDependencies:
+849 silly install resolved      { 'csv-parse': '0.0.6',
+849 silly install resolved        istanbul: '0',
+849 silly install resolved        mocha: '1',
+849 silly install resolved        'stream-to-array': '2' },
+849 silly install resolved     scripts:
+849 silly install resolved      { build: 'node scripts/build.js',
+849 silly install resolved        update: 'node scripts/update.js',
+849 silly install resolved        test: 'mocha --reporter spec --bail --check-leaks',
+849 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks',
+849 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks' },
+849 silly install resolved     gitHead: '49e6ac7ae4c63ee8186f56cb52112a7eeda28ed7',
+849 silly install resolved     bugs: { url: 'https://github.com/jshttp/statuses/issues' },
+849 silly install resolved     homepage: 'https://github.com/jshttp/statuses',
+849 silly install resolved     _id: 'statuses@1.2.1',
+849 silly install resolved     _shasum: 'dded45cc18256d51ed40aec142489d5c61026d28',
+849 silly install resolved     _from: 'statuses@>=1.0.0 <2.0.0',
+849 silly install resolved     _npmVersion: '1.4.28',
+849 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+849 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+849 silly install resolved     dist:
+849 silly install resolved      { shasum: 'dded45cc18256d51ed40aec142489d5c61026d28',
+849 silly install resolved        tarball: 'http://registry.npmjs.org/statuses/-/statuses-1.2.1.tgz' },
+849 silly install resolved     directories: {},
+849 silly install resolved     _resolved: 'https://registry.npmjs.org/statuses/-/statuses-1.2.1.tgz',
+849 silly install resolved     readme: 'ERROR: No README data found!' } ]
+850 info install inherits@2.0.1 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors
+851 info install statuses@1.2.1 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors
+852 info installOne inherits@2.0.1
+853 verbose installOne of inherits to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors not in flight; installing
+854 info installOne statuses@1.2.1
+855 verbose installOne of statuses to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors not in flight; installing
+856 verbose lock using /Users/newscred/.npm/_locks/ee-first-1c28acfdda34289a.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+857 verbose lock using /Users/newscred/.npm/_locks/unpipe-28a65564580e3554.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe
+858 verbose lock using /Users/newscred/.npm/_locks/inherits-6504394c53200a2a.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/inherits
+859 silly install write writing ee-first 1.1.1 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+860 silly cache addNamed cb ee-first@1.1.1
+861 verbose unbuild node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+862 silly install write writing unpipe 1.0.0 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe
+863 silly cache addNamed cb unpipe@1.0.0
+864 verbose unbuild node_modules/body-parser/node_modules/raw-body/node_modules/unpipe
+865 verbose lock using /Users/newscred/.npm/_locks/statuses-132c1ae9d26bf54f.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/statuses
+866 silly install write writing inherits 2.0.1 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/inherits
+867 silly cache addNamed cb inherits@2.0.1
+868 verbose unbuild node_modules/body-parser/node_modules/http-errors/node_modules/inherits
+869 silly install write writing statuses 1.2.1 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/statuses
+870 silly cache addNamed cb statuses@1.2.1
+871 verbose unbuild node_modules/body-parser/node_modules/http-errors/node_modules/statuses
+872 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+873 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe
+874 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/inherits
+875 verbose tar unpack /Users/newscred/.npm/ee-first/1.1.1/package.tgz
+876 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+877 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+878 verbose tar unpack /Users/newscred/.npm/unpipe/1.0.0/package.tgz
+879 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe
+880 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe
+881 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/statuses
+882 verbose tar unpack /Users/newscred/.npm/inherits/2.0.1/package.tgz
+883 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/inherits
+884 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/inherits
+885 silly gunzTarPerm modes [ '755', '644' ]
+886 silly gunzTarPerm modes [ '755', '644' ]
+887 verbose tar unpack /Users/newscred/.npm/statuses/1.2.1/package.tgz
+888 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/statuses
+889 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/statuses
+890 silly gunzTarPerm modes [ '755', '644' ]
+891 silly gunzTarPerm modes [ '755', '644' ]
+892 silly gunzTarPerm extractEntry package.json
+893 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+894 silly gunzTarPerm extractEntry package.json
+895 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+896 silly gunzTarPerm extractEntry package.json
+897 silly gunzTarPerm extractEntry package.json
+898 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+899 silly gunzTarPerm extractEntry README.md
+900 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+901 silly gunzTarPerm extractEntry LICENSE
+902 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+903 silly gunzTarPerm extractEntry README.md
+904 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+905 silly gunzTarPerm extractEntry LICENSE
+906 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+907 silly gunzTarPerm extractEntry README.md
+908 silly gunzTarPerm extractEntry LICENSE
+909 silly gunzTarPerm extractEntry README.md
+910 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+911 silly gunzTarPerm extractEntry LICENSE
+912 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+913 silly gunzTarPerm extractEntry inherits.js
+914 silly gunzTarPerm extractEntry inherits_browser.js
+915 silly gunzTarPerm extractEntry index.js
+916 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+917 silly gunzTarPerm extractEntry index.js
+918 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+919 silly gunzTarPerm extractEntry HISTORY.md
+920 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+921 silly gunzTarPerm extractEntry index.js
+922 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+923 silly gunzTarPerm extractEntry codes.json
+924 silly gunzTarPerm modified mode [ 'codes.json', 438, 420 ]
+925 silly gunzTarPerm extractEntry test.js
+926 info preinstall ee-first@1.1.1
+927 info preinstall unpipe@1.0.0
+928 silly install resolved []
+929 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+930 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+931 verbose linkStuff [ false,
+931 verbose linkStuff   false,
+931 verbose linkStuff   false,
+931 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished/node_modules' ]
+932 info linkStuff ee-first@1.1.1
+933 verbose linkBins ee-first@1.1.1
+934 verbose linkMans ee-first@1.1.1
+935 verbose rebuildBundles ee-first@1.1.1
+936 info install ee-first@1.1.1
+937 silly install resolved []
+938 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe
+939 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe
+940 verbose linkStuff [ false,
+940 verbose linkStuff   false,
+940 verbose linkStuff   false,
+940 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body/node_modules' ]
+941 info linkStuff unpipe@1.0.0
+942 verbose linkBins unpipe@1.0.0
+943 verbose linkMans unpipe@1.0.0
+944 verbose rebuildBundles unpipe@1.0.0
+945 info postinstall ee-first@1.1.1
+946 info install unpipe@1.0.0
+947 info preinstall inherits@2.0.1
+948 info postinstall unpipe@1.0.0
+949 verbose unlock done using /Users/newscred/.npm/_locks/ee-first-1c28acfdda34289a.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first
+950 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished
+951 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished
+952 verbose linkStuff [ false,
+952 verbose linkStuff   false,
+952 verbose linkStuff   false,
+952 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules' ]
+953 info linkStuff on-finished@2.3.0
+954 verbose linkBins on-finished@2.3.0
+955 verbose linkMans on-finished@2.3.0
+956 verbose rebuildBundles on-finished@2.3.0
+957 verbose rebuildBundles [ 'ee-first' ]
+958 info install on-finished@2.3.0
+959 info preinstall statuses@1.2.1
+960 verbose unlock done using /Users/newscred/.npm/_locks/unpipe-28a65564580e3554.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe
+961 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body
+962 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body
+963 verbose linkStuff [ false,
+963 verbose linkStuff   false,
+963 verbose linkStuff   false,
+963 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules' ]
+964 info linkStuff raw-body@2.1.2
+965 verbose linkBins raw-body@2.1.2
+966 verbose linkMans raw-body@2.1.2
+967 verbose rebuildBundles raw-body@2.1.2
+968 info postinstall on-finished@2.3.0
+969 silly install resolved []
+970 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/inherits
+971 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/inherits
+972 verbose linkStuff [ false,
+972 verbose linkStuff   false,
+972 verbose linkStuff   false,
+972 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules' ]
+973 info linkStuff inherits@2.0.1
+974 verbose linkBins inherits@2.0.1
+975 verbose linkMans inherits@2.0.1
+976 verbose rebuildBundles inherits@2.0.1
+977 verbose rebuildBundles [ 'unpipe' ]
+978 info install raw-body@2.1.2
+979 info install inherits@2.0.1
+980 info postinstall raw-body@2.1.2
+981 verbose unlock done using /Users/newscred/.npm/_locks/on-finished-830749dc55448559.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/on-finished
+982 silly install resolved []
+983 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/statuses
+984 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/statuses
+985 verbose linkStuff [ false,
+985 verbose linkStuff   false,
+985 verbose linkStuff   false,
+985 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules' ]
+986 info linkStuff statuses@1.2.1
+987 verbose linkBins statuses@1.2.1
+988 verbose linkMans statuses@1.2.1
+989 verbose rebuildBundles statuses@1.2.1
+990 info postinstall inherits@2.0.1
+991 info install statuses@1.2.1
+992 verbose unlock done using /Users/newscred/.npm/_locks/raw-body-d0af72f6790f88e6.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/raw-body
+993 info postinstall statuses@1.2.1
+994 verbose unlock done using /Users/newscred/.npm/_locks/inherits-6504394c53200a2a.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/inherits
+995 verbose unlock done using /Users/newscred/.npm/_locks/statuses-132c1ae9d26bf54f.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors/node_modules/statuses
+996 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors
+997 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors
+998 verbose linkStuff [ false,
+998 verbose linkStuff   false,
+998 verbose linkStuff   false,
+998 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules' ]
+999 info linkStuff http-errors@1.3.1
+1000 verbose linkBins http-errors@1.3.1
+1001 verbose linkMans http-errors@1.3.1
+1002 verbose rebuildBundles http-errors@1.3.1
+1003 verbose rebuildBundles [ 'inherits', 'statuses' ]
+1004 info install http-errors@1.3.1
+1005 info postinstall http-errors@1.3.1
+1006 verbose unlock done using /Users/newscred/.npm/_locks/http-errors-4ef5387e75be84e6.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/http-errors
+1007 http 304 https://registry.npmjs.org/mime-types
+1008 silly get cb [ 304,
+1008 silly get   { date: 'Thu, 09 Jul 2015 03:46:03 GMT',
+1008 silly get     via: '1.1 varnish',
+1008 silly get     'cache-control': 'max-age=60',
+1008 silly get     etag: '"EH2JK6VW4UP33FA8W24EKYNIJ"',
+1008 silly get     age: '0',
+1008 silly get     connection: 'keep-alive',
+1008 silly get     'x-served-by': 'cache-ams4133-AMS',
+1008 silly get     'x-cache': 'HIT',
+1008 silly get     'x-cache-hits': '1',
+1008 silly get     'x-timer': 'S1436413563.278835,VS0,VE92',
+1008 silly get     vary: 'Accept' } ]
+1009 verbose etag https://registry.npmjs.org/mime-types from cache
+1010 verbose get saving mime-types to /Users/newscred/.npm/registry.npmjs.org/mime-types/.cache.json
+1011 silly addNameRange number 2 { name: 'mime-types', range: '>=2.1.2 <2.2.0', hasData: true }
+1012 silly addNameRange versions [ 'mime-types',
+1012 silly addNameRange   [ '0.1.0',
+1012 silly addNameRange     '1.0.0',
+1012 silly addNameRange     '1.0.1',
+1012 silly addNameRange     '1.0.2',
+1012 silly addNameRange     '2.0.0',
+1012 silly addNameRange     '2.0.1',
+1012 silly addNameRange     '2.0.2',
+1012 silly addNameRange     '2.0.3',
+1012 silly addNameRange     '2.0.4',
+1012 silly addNameRange     '2.0.5',
+1012 silly addNameRange     '2.0.6',
+1012 silly addNameRange     '2.0.7',
+1012 silly addNameRange     '2.0.8',
+1012 silly addNameRange     '2.0.9',
+1012 silly addNameRange     '2.0.10',
+1012 silly addNameRange     '2.0.11',
+1012 silly addNameRange     '2.0.12',
+1012 silly addNameRange     '2.0.13',
+1012 silly addNameRange     '2.0.14',
+1012 silly addNameRange     '2.1.0',
+1012 silly addNameRange     '2.1.1',
+1012 silly addNameRange     '2.1.2' ] ]
+1013 verbose addNamed mime-types@2.1.2
+1014 silly addNamed semver.valid 2.1.2
+1015 silly addNamed semver.validRange 2.1.2
+1016 silly cache afterAdd mime-types@2.1.2
+1017 verbose afterAdd /Users/newscred/.npm/mime-types/2.1.2/package/package.json not in flight; writing
+1018 verbose afterAdd /Users/newscred/.npm/mime-types/2.1.2/package/package.json written
+1019 silly install resolved [ { name: 'media-typer',
+1019 silly install resolved     description: 'Simple RFC 6838 media type parser and formatter',
+1019 silly install resolved     version: '0.3.0',
+1019 silly install resolved     author:
+1019 silly install resolved      { name: 'Douglas Christopher Wilson',
+1019 silly install resolved        email: 'doug@somethingdoug.com' },
+1019 silly install resolved     license: 'MIT',
+1019 silly install resolved     repository: { type: 'git', url: 'https://github.com/jshttp/media-typer' },
+1019 silly install resolved     devDependencies: { istanbul: '0.3.2', mocha: '~1.21.4', should: '~4.0.4' },
+1019 silly install resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+1019 silly install resolved     engines: { node: '>= 0.6' },
+1019 silly install resolved     scripts:
+1019 silly install resolved      { test: 'mocha --reporter spec --check-leaks --bail test/',
+1019 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+1019 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+1019 silly install resolved     gitHead: 'd49d41ffd0bb5a0655fa44a59df2ec0bfc835b16',
+1019 silly install resolved     bugs: { url: 'https://github.com/jshttp/media-typer/issues' },
+1019 silly install resolved     homepage: 'https://github.com/jshttp/media-typer',
+1019 silly install resolved     _id: 'media-typer@0.3.0',
+1019 silly install resolved     _shasum: '8710d7af0aa626f8fffa1ce00168545263255748',
+1019 silly install resolved     _from: 'media-typer@0.3.0',
+1019 silly install resolved     _npmVersion: '1.4.21',
+1019 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+1019 silly install resolved     maintainers: [ [Object] ],
+1019 silly install resolved     dist:
+1019 silly install resolved      { shasum: '8710d7af0aa626f8fffa1ce00168545263255748',
+1019 silly install resolved        tarball: 'http://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz' },
+1019 silly install resolved     directories: {},
+1019 silly install resolved     _resolved: 'https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz',
+1019 silly install resolved     readme: 'ERROR: No README data found!' },
+1019 silly install resolved   { name: 'mime-types',
+1019 silly install resolved     description: 'The ultimate javascript content-type utility.',
+1019 silly install resolved     version: '2.1.2',
+1019 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+1019 silly install resolved     license: 'MIT',
+1019 silly install resolved     keywords: [ 'mime', 'types' ],
+1019 silly install resolved     repository: { type: 'git', url: 'https://github.com/jshttp/mime-types' },
+1019 silly install resolved     dependencies: { 'mime-db': '~1.14.0' },
+1019 silly install resolved     devDependencies: { istanbul: '0.3.16', mocha: '~1.21.5' },
+1019 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'index.js' ],
+1019 silly install resolved     engines: { node: '>= 0.6' },
+1019 silly install resolved     scripts:
+1019 silly install resolved      { test: 'mocha --reporter spec test/test.js',
+1019 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/test.js',
+1019 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot test/test.js' },
+1019 silly install resolved     gitHead: '5704d7bb0cf90f14b442f0b954ace6c1dbc5f435',
+1019 silly install resolved     bugs: { url: 'https://github.com/jshttp/mime-types/issues' },
+1019 silly install resolved     homepage: 'https://github.com/jshttp/mime-types',
+1019 silly install resolved     _id: 'mime-types@2.1.2',
+1019 silly install resolved     _shasum: '6545ccd95afe77b9c655d81c2e6ceace36257227',
+1019 silly install resolved     _from: 'mime-types@>=2.1.2 <2.2.0',
+1019 silly install resolved     _npmVersion: '1.4.28',
+1019 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+1019 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+1019 silly install resolved     dist:
+1019 silly install resolved      { shasum: '6545ccd95afe77b9c655d81c2e6ceace36257227',
+1019 silly install resolved        tarball: 'http://registry.npmjs.org/mime-types/-/mime-types-2.1.2.tgz' },
+1019 silly install resolved     directories: {},
+1019 silly install resolved     _resolved: 'https://registry.npmjs.org/mime-types/-/mime-types-2.1.2.tgz',
+1019 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1020 info install media-typer@0.3.0 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is
+1021 info install mime-types@2.1.2 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is
+1022 info installOne media-typer@0.3.0
+1023 verbose installOne of media-typer to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is not in flight; installing
+1024 info installOne mime-types@2.1.2
+1025 verbose installOne of mime-types to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is not in flight; installing
+1026 verbose lock using /Users/newscred/.npm/_locks/media-typer-365c75e206910248.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1027 verbose lock using /Users/newscred/.npm/_locks/mime-types-56bac5037ddfdb5c.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1028 silly install write writing media-typer 0.3.0 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1029 silly cache addNamed cb media-typer@0.3.0
+1030 verbose unbuild node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1031 silly install write writing mime-types 2.1.2 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1032 silly cache addNamed cb mime-types@2.1.2
+1033 verbose unbuild node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1034 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1035 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1036 verbose tar unpack /Users/newscred/.npm/media-typer/0.3.0/package.tgz
+1037 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1038 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1039 verbose tar unpack /Users/newscred/.npm/mime-types/2.1.2/package.tgz
+1040 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1041 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1042 silly gunzTarPerm modes [ '755', '644' ]
+1043 silly gunzTarPerm modes [ '755', '644' ]
+1044 silly gunzTarPerm extractEntry package.json
+1045 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1046 silly gunzTarPerm extractEntry package.json
+1047 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1048 silly gunzTarPerm extractEntry README.md
+1049 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1050 silly gunzTarPerm extractEntry LICENSE
+1051 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+1052 silly gunzTarPerm extractEntry README.md
+1053 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1054 silly gunzTarPerm extractEntry LICENSE
+1055 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+1056 silly gunzTarPerm extractEntry index.js
+1057 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+1058 silly gunzTarPerm extractEntry HISTORY.md
+1059 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+1060 silly gunzTarPerm extractEntry index.js
+1061 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+1062 silly gunzTarPerm extractEntry HISTORY.md
+1063 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+1064 info preinstall media-typer@0.3.0
+1065 info preinstall mime-types@2.1.2
+1066 silly prepareForInstallMany adding mime-db@~1.14.0 from mime-types dependencies
+1067 silly install resolved []
+1068 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1069 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1070 verbose linkStuff [ false,
+1070 verbose linkStuff   false,
+1070 verbose linkStuff   false,
+1070 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules' ]
+1071 info linkStuff media-typer@0.3.0
+1072 verbose linkBins media-typer@0.3.0
+1073 verbose linkMans media-typer@0.3.0
+1074 verbose rebuildBundles media-typer@0.3.0
+1075 info install media-typer@0.3.0
+1076 silly cache add args [ 'mime-db@~1.14.0', null ]
+1077 verbose cache add spec mime-db@~1.14.0
+1078 silly cache add parsed spec { raw: 'mime-db@~1.14.0',
+1078 silly cache add   scope: null,
+1078 silly cache add   name: 'mime-db',
+1078 silly cache add   rawSpec: '~1.14.0',
+1078 silly cache add   spec: '>=1.14.0 <1.15.0',
+1078 silly cache add   type: 'range' }
+1079 verbose addNamed mime-db@>=1.14.0 <1.15.0
+1080 silly addNamed semver.valid null
+1081 silly addNamed semver.validRange >=1.14.0 <1.15.0
+1082 silly addNameRange { name: 'mime-db', range: '>=1.14.0 <1.15.0', hasData: false }
+1083 silly mapToRegistry name mime-db
+1084 silly mapToRegistry using default registry
+1085 silly mapToRegistry registry https://registry.npmjs.org/
+1086 silly mapToRegistry uri https://registry.npmjs.org/mime-db
+1087 verbose addNameRange registry:https://registry.npmjs.org/mime-db not in flight; fetching
+1088 info postinstall media-typer@0.3.0
+1089 verbose unlock done using /Users/newscred/.npm/_locks/media-typer-365c75e206910248.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/media-typer
+1090 verbose request uri https://registry.npmjs.org/mime-db
+1091 verbose request no auth needed
+1092 info attempt registry request try #1 at 09:46:02
+1093 verbose etag "6TKXGWTTW1U2942A2UKJ8WYK7"
+1094 http request GET https://registry.npmjs.org/mime-db
+1095 http 304 https://registry.npmjs.org/ms
+1096 silly get cb [ 304,
+1096 silly get   { date: 'Thu, 09 Jul 2015 03:46:03 GMT',
+1096 silly get     via: '1.1 varnish',
+1096 silly get     'cache-control': 'max-age=60',
+1096 silly get     etag: '"53ANWMC7TJMGDP9CKLFDTWNRR"',
+1096 silly get     age: '0',
+1096 silly get     connection: 'keep-alive',
+1096 silly get     'x-served-by': 'cache-ams4128-AMS',
+1096 silly get     'x-cache': 'HIT',
+1096 silly get     'x-cache-hits': '1',
+1096 silly get     'x-timer': 'S1436413563.323129,VS0,VE675',
+1096 silly get     vary: 'Accept' } ]
+1097 verbose etag https://registry.npmjs.org/ms from cache
+1098 verbose get saving ms to /Users/newscred/.npm/registry.npmjs.org/ms/.cache.json
+1099 silly cache afterAdd ms@0.7.1
+1100 verbose afterAdd /Users/newscred/.npm/ms/0.7.1/package/package.json not in flight; writing
+1101 verbose afterAdd /Users/newscred/.npm/ms/0.7.1/package/package.json written
+1102 silly install resolved [ { name: 'ms',
+1102 silly install resolved     version: '0.7.1',
+1102 silly install resolved     description: 'Tiny ms conversion utility',
+1102 silly install resolved     repository: { type: 'git', url: 'git://github.com/guille/ms.js.git' },
+1102 silly install resolved     main: './index',
+1102 silly install resolved     devDependencies: { mocha: '*', 'expect.js': '*', serve: '*' },
+1102 silly install resolved     component: { scripts: [Object] },
+1102 silly install resolved     gitHead: '713dcf26d9e6fd9dbc95affe7eff9783b7f1b909',
+1102 silly install resolved     bugs: { url: 'https://github.com/guille/ms.js/issues' },
+1102 silly install resolved     homepage: 'https://github.com/guille/ms.js',
+1102 silly install resolved     _id: 'ms@0.7.1',
+1102 silly install resolved     scripts: {},
+1102 silly install resolved     _shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+1102 silly install resolved     _from: 'ms@0.7.1',
+1102 silly install resolved     _npmVersion: '2.7.5',
+1102 silly install resolved     _nodeVersion: '0.12.2',
+1102 silly install resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+1102 silly install resolved     maintainers: [ [Object] ],
+1102 silly install resolved     dist:
+1102 silly install resolved      { shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+1102 silly install resolved        tarball: 'http://registry.npmjs.org/ms/-/ms-0.7.1.tgz' },
+1102 silly install resolved     directories: {},
+1102 silly install resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz',
+1102 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1103 info install ms@0.7.1 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug
+1104 info installOne ms@0.7.1
+1105 verbose installOne of ms to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug not in flight; installing
+1106 verbose lock using /Users/newscred/.npm/_locks/ms-7a1027c9752281cc.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug/node_modules/ms
+1107 silly install write writing ms 0.7.1 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug/node_modules/ms
+1108 silly cache addNamed cb ms@0.7.1
+1109 verbose unbuild node_modules/body-parser/node_modules/debug/node_modules/ms
+1110 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug/node_modules/ms
+1111 verbose tar unpack /Users/newscred/.npm/ms/0.7.1/package.tgz
+1112 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug/node_modules/ms
+1113 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug/node_modules/ms
+1114 silly gunzTarPerm modes [ '755', '644' ]
+1115 silly gunzTarPerm extractEntry package.json
+1116 silly gunzTarPerm extractEntry .npmignore
+1117 silly gunzTarPerm extractEntry README.md
+1118 silly gunzTarPerm extractEntry LICENSE
+1119 silly gunzTarPerm extractEntry index.js
+1120 silly gunzTarPerm extractEntry History.md
+1121 info preinstall ms@0.7.1
+1122 silly install resolved []
+1123 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug/node_modules/ms
+1124 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug/node_modules/ms
+1125 verbose linkStuff [ false,
+1125 verbose linkStuff   false,
+1125 verbose linkStuff   false,
+1125 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug/node_modules' ]
+1126 info linkStuff ms@0.7.1
+1127 verbose linkBins ms@0.7.1
+1128 verbose linkMans ms@0.7.1
+1129 verbose rebuildBundles ms@0.7.1
+1130 info install ms@0.7.1
+1131 info postinstall ms@0.7.1
+1132 verbose unlock done using /Users/newscred/.npm/_locks/ms-7a1027c9752281cc.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug/node_modules/ms
+1133 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug
+1134 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug
+1135 verbose linkStuff [ false,
+1135 verbose linkStuff   false,
+1135 verbose linkStuff   false,
+1135 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules' ]
+1136 info linkStuff debug@2.2.0
+1137 verbose linkBins debug@2.2.0
+1138 verbose linkMans debug@2.2.0
+1139 verbose rebuildBundles debug@2.2.0
+1140 verbose rebuildBundles [ 'ms' ]
+1141 info install debug@2.2.0
+1142 info postinstall debug@2.2.0
+1143 verbose unlock done using /Users/newscred/.npm/_locks/debug-72cfb6b98285e448.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/debug
+1144 http 304 https://registry.npmjs.org/mime-db
+1145 silly get cb [ 304,
+1145 silly get   { date: 'Thu, 09 Jul 2015 03:46:04 GMT',
+1145 silly get     via: '1.1 varnish',
+1145 silly get     'cache-control': 'max-age=60',
+1145 silly get     etag: '"6TKXGWTTW1U2942A2UKJ8WYK7"',
+1145 silly get     age: '47',
+1145 silly get     connection: 'keep-alive',
+1145 silly get     'x-served-by': 'cache-ams4144-AMS',
+1145 silly get     'x-cache': 'HIT',
+1145 silly get     'x-cache-hits': '1',
+1145 silly get     'x-timer': 'S1436413564.105465,VS0,VE0',
+1145 silly get     vary: 'Accept' } ]
+1146 verbose etag https://registry.npmjs.org/mime-db from cache
+1147 verbose get saving mime-db to /Users/newscred/.npm/registry.npmjs.org/mime-db/.cache.json
+1148 silly addNameRange number 2 { name: 'mime-db', range: '>=1.14.0 <1.15.0', hasData: true }
+1149 silly addNameRange versions [ 'mime-db',
+1149 silly addNameRange   [ '0.0.0',
+1149 silly addNameRange     '1.0.0',
+1149 silly addNameRange     '1.0.1',
+1149 silly addNameRange     '1.0.2',
+1149 silly addNameRange     '1.0.3',
+1149 silly addNameRange     '1.1.0',
+1149 silly addNameRange     '1.1.1',
+1149 silly addNameRange     '1.1.2',
+1149 silly addNameRange     '1.2.0',
+1149 silly addNameRange     '1.3.0',
+1149 silly addNameRange     '1.3.1',
+1149 silly addNameRange     '1.4.0',
+1149 silly addNameRange     '1.5.0',
+1149 silly addNameRange     '1.6.0',
+1149 silly addNameRange     '1.6.1',
+1149 silly addNameRange     '1.7.0',
+1149 silly addNameRange     '1.8.0',
+1149 silly addNameRange     '1.9.0',
+1149 silly addNameRange     '1.9.1',
+1149 silly addNameRange     '1.10.0',
+1149 silly addNameRange     '1.11.0',
+1149 silly addNameRange     '1.12.0',
+1149 silly addNameRange     '1.13.0',
+1149 silly addNameRange     '1.14.0' ] ]
+1150 verbose addNamed mime-db@1.14.0
+1151 silly addNamed semver.valid 1.14.0
+1152 silly addNamed semver.validRange 1.14.0
+1153 silly cache afterAdd mime-db@1.14.0
+1154 verbose afterAdd /Users/newscred/.npm/mime-db/1.14.0/package/package.json not in flight; writing
+1155 verbose afterAdd /Users/newscred/.npm/mime-db/1.14.0/package/package.json written
+1156 silly install resolved [ { name: 'mime-db',
+1156 silly install resolved     description: 'Media Type Database',
+1156 silly install resolved     version: '1.14.0',
+1156 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+1156 silly install resolved     license: 'MIT',
+1156 silly install resolved     keywords: [ 'mime', 'db', 'type', 'types', 'database', 'charset', 'charsets' ],
+1156 silly install resolved     repository: { type: 'git', url: 'https://github.com/jshttp/mime-db' },
+1156 silly install resolved     devDependencies:
+1156 silly install resolved      { bluebird: '2.9.30',
+1156 silly install resolved        co: '4.5.4',
+1156 silly install resolved        cogent: '1.0.1',
+1156 silly install resolved        'csv-parse': '0.1.3',
+1156 silly install resolved        gnode: '0.1.1',
+1156 silly install resolved        istanbul: '0.3.16',
+1156 silly install resolved        mocha: '1.21.5',
+1156 silly install resolved        'raw-body': '2.1.1',
+1156 silly install resolved        'stream-to-array': '2' },
+1156 silly install resolved     files: [ 'HISTORY.md', 'LICENSE', 'README.md', 'db.json', 'index.js' ],
+1156 silly install resolved     engines: { node: '>= 0.6' },
+1156 silly install resolved     scripts:
+1156 silly install resolved      { build: 'node scripts/build',
+1156 silly install resolved        fetch: 'gnode scripts/fetch-apache && gnode scripts/fetch-iana && gnode scripts/fetch-nginx',
+1156 silly install resolved        test: 'mocha --reporter spec --bail --check-leaks test/',
+1156 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+1156 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+1156 silly install resolved        update: 'npm run fetch && npm run build' },
+1156 silly install resolved     gitHead: '9803c407b6621daba9363f534cfab18255c945a8',
+1156 silly install resolved     bugs: { url: 'https://github.com/jshttp/mime-db/issues' },
+1156 silly install resolved     homepage: 'https://github.com/jshttp/mime-db',
+1156 silly install resolved     _id: 'mime-db@1.14.0',
+1156 silly install resolved     _shasum: 'd561f10b6ee66db51f94ae657a2951a74217ed83',
+1156 silly install resolved     _from: 'mime-db@>=1.14.0 <1.15.0',
+1156 silly install resolved     _npmVersion: '1.4.28',
+1156 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+1156 silly install resolved     maintainers: [ [Object], [Object] ],
+1156 silly install resolved     dist:
+1156 silly install resolved      { shasum: 'd561f10b6ee66db51f94ae657a2951a74217ed83',
+1156 silly install resolved        tarball: 'http://registry.npmjs.org/mime-db/-/mime-db-1.14.0.tgz' },
+1156 silly install resolved     directories: {},
+1156 silly install resolved     _resolved: 'https://registry.npmjs.org/mime-db/-/mime-db-1.14.0.tgz',
+1156 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1157 info install mime-db@1.14.0 into /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1158 info installOne mime-db@1.14.0
+1159 verbose installOne of mime-db to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types not in flight; installing
+1160 verbose lock using /Users/newscred/.npm/_locks/mime-db-c3f588430b8f4f92.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1161 silly install write writing mime-db 1.14.0 to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1162 silly cache addNamed cb mime-db@1.14.0
+1163 verbose unbuild node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1164 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1165 verbose tar unpack /Users/newscred/.npm/mime-db/1.14.0/package.tgz
+1166 verbose tar unpacking to /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1167 verbose gentlyRm vacuuming /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1168 silly gunzTarPerm modes [ '755', '644' ]
+1169 silly gunzTarPerm extractEntry package.json
+1170 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1171 silly gunzTarPerm extractEntry README.md
+1172 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1173 silly gunzTarPerm extractEntry LICENSE
+1174 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+1175 silly gunzTarPerm extractEntry index.js
+1176 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+1177 silly gunzTarPerm extractEntry HISTORY.md
+1178 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+1179 silly gunzTarPerm extractEntry db.json
+1180 silly gunzTarPerm modified mode [ 'db.json', 438, 420 ]
+1181 info preinstall mime-db@1.14.0
+1182 silly install resolved []
+1183 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1184 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1185 verbose linkStuff [ false,
+1185 verbose linkStuff   false,
+1185 verbose linkStuff   false,
+1185 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules' ]
+1186 info linkStuff mime-db@1.14.0
+1187 verbose linkBins mime-db@1.14.0
+1188 verbose linkMans mime-db@1.14.0
+1189 verbose rebuildBundles mime-db@1.14.0
+1190 info install mime-db@1.14.0
+1191 info postinstall mime-db@1.14.0
+1192 verbose unlock done using /Users/newscred/.npm/_locks/mime-db-c3f588430b8f4f92.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db
+1193 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1194 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1195 verbose linkStuff [ false,
+1195 verbose linkStuff   false,
+1195 verbose linkStuff   false,
+1195 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules' ]
+1196 info linkStuff mime-types@2.1.2
+1197 verbose linkBins mime-types@2.1.2
+1198 verbose linkMans mime-types@2.1.2
+1199 verbose rebuildBundles mime-types@2.1.2
+1200 verbose rebuildBundles [ 'mime-db' ]
+1201 info install mime-types@2.1.2
+1202 info postinstall mime-types@2.1.2
+1203 verbose unlock done using /Users/newscred/.npm/_locks/mime-types-56bac5037ddfdb5c.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is/node_modules/mime-types
+1204 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is
+1205 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is
+1206 verbose linkStuff [ false,
+1206 verbose linkStuff   false,
+1206 verbose linkStuff   false,
+1206 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules' ]
+1207 info linkStuff type-is@1.6.4
+1208 verbose linkBins type-is@1.6.4
+1209 verbose linkMans type-is@1.6.4
+1210 verbose rebuildBundles type-is@1.6.4
+1211 verbose rebuildBundles [ 'media-typer', 'mime-types' ]
+1212 info install type-is@1.6.4
+1213 info postinstall type-is@1.6.4
+1214 verbose unlock done using /Users/newscred/.npm/_locks/type-is-35a2c88e4aa74031.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser/node_modules/type-is
+1215 verbose about to build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+1216 info build /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+1217 verbose linkStuff [ false,
+1217 verbose linkStuff   false,
+1217 verbose linkStuff   false,
+1217 verbose linkStuff   '/Backup/MARUF/GIT/NodeJS/Rest/node_modules' ]
+1218 info linkStuff body-parser@1.13.2
+1219 verbose linkBins body-parser@1.13.2
+1220 verbose linkMans body-parser@1.13.2
+1221 verbose rebuildBundles body-parser@1.13.2
+1222 verbose rebuildBundles [ 'bytes',
+1222 verbose rebuildBundles   'content-type',
+1222 verbose rebuildBundles   'debug',
+1222 verbose rebuildBundles   'depd',
+1222 verbose rebuildBundles   'http-errors',
+1222 verbose rebuildBundles   'iconv-lite',
+1222 verbose rebuildBundles   'on-finished',
+1222 verbose rebuildBundles   'qs',
+1222 verbose rebuildBundles   'raw-body',
+1222 verbose rebuildBundles   'type-is' ]
+1223 info install body-parser@1.13.2
+1224 info postinstall body-parser@1.13.2
+1225 verbose unlock done using /Users/newscred/.npm/_locks/body-parser-0496836430fd1d30.lock for /Backup/MARUF/GIT/NodeJS/Rest/node_modules/body-parser
+1226 verbose stack Error: The package mongoose does not satisfy its siblings' peerDependencies requirements!
+1226 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:103:32
+1226 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:225:5
+1226 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+1226 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1226 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1226 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1226 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1226 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1226 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1226 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1227 verbose cwd /Backup/MARUF/GIT/NodeJS/Rest
+1228 error Darwin 13.2.0
+1229 error argv "node" "/usr/local/bin/npm" "install" "--save" "body-parser"
+1230 error node v0.12.0
+1231 error npm  v2.5.1
+1232 error code EPEERINVALID
+1233 error peerinvalid The package mongoose does not satisfy its siblings' peerDependencies requirements!
+1233 error peerinvalid Peer node-restful@0.1.18 wants mongoose@~3
+1234 verbose exit [ 1, true ]
